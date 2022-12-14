@@ -1,0 +1,30 @@
+.btn {
+  font-family: var(--font-base);
+  font-weight: 600;
+  padding: 8px 12px;
+  gap: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.primary {
+  color: var(--color-white);
+  background-color: var(--color-drak-blue);
+  transition: all 0.3s;
+
+  &:hover {
+    color: var(--color-drak-blue);
+    background-color: var(--color-light-blue);
+  }
+}
+
+.secondary {
+  padding: 8px 36px;
+  color: var(--color-drak-blue);
+  transition: all 0.3s;
+
+  &:hover {
+    color: var(--color-drak-blue);
+    background-color: var(--color-light-blue);
+  }
+}

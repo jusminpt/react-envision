@@ -1,0 +1,10 @@
+.app {
+  background-color: var(--color-white);
+  font-family: var(--font-base);
+  font-size: var(--font-default-size);
+}
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+}
