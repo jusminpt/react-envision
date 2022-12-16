@@ -12,6 +12,7 @@ function App() {
         <Navbar />
         <main>
           <Routes>
+            {/* TODO: Add more paths when finalize */}
             <Route exact path="/" element={<Home />} />
             <Route path="/meet-the-team" element={<MeetTeam />} />
           </Routes>

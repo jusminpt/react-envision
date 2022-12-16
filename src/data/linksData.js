@@ -2,12 +2,6 @@ const linksData = [
   {
     title: "Home",
     url: "/",
-    sublink: [
-      {
-        title: "web design",
-        url: "web-design",
-      },
-    ],
   },
   {
     title: "What We Do",
