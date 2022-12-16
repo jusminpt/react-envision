@@ -1,14 +1,24 @@
 import React from "react";
-import { Navbar, Footer, Button } from "./components";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Navbar, Footer } from "./components";
+import Home from "./pages/Home/Home";
+import MeetTeam from "./pages/MeetTeam/MeetTeam";
 import "./App.scss";
 
 function App() {
   return (
-    <div className="app">
-      <Navbar />
-      {/* <Button /> */}
-      <Footer />
-    </div>
+    <Router>
+      <div className="app">
+        <Navbar />
+        <main>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/meet-the-team" element={<MeetTeam />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
