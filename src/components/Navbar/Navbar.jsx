@@ -38,8 +38,8 @@ function Navbar() {
               />
             );
           })}
+          <Button textInput="Donate" styleBtn="primary" />
         </ul>
-        <Button textInput="Donate" styleBtn="primary" />
       </nav>
     </header>
   );

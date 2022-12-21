@@ -17,12 +17,14 @@ function DropDown({ sublinks }) {
       >
         {sublinks.map((sublink, index) => {
           return (
-            <li key={index} className="app__navbar-dropdown-links">
+            <li key={index}>
               {/* TODO: Close the dropdown when click */}
-              <Link to={sublink.url} onClick={() => setClick(false)}>
+              <Link
+                to={sublink.url}
+                className="app__navbar-dropdown-links"
+                onClick={() => setClick(false)}
+              >
                 {sublink.title}
-                {/* TODO: Fix the hover effect of arrow. Look at zeplin file*/}
-                <BsArrowRightShort />
               </Link>
             </li>
           );
