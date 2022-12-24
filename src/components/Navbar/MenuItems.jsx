@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./DropDown";
+import { useLocation } from "react-router-dom";
 
 function MenuItems({ items }) {
+  const pathname = useLocation().pathname;
+  console.log(pathname);
   const [dropdown, setDropdown] = useState(false);
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    setClick(!click);
+    if (window.innerWidth < 960) {
+      setDropdown(!dropdown);
+    }
+  };
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
@@ -43,7 +51,7 @@ function MenuItems({ items }) {
           {dropdown && <Dropdown sublinks={items.sublink} />}
         </>
       ) : (
-        <Link to={items.url} className="app__navbar-menu-items-link">
+        <Link to={items.url} className="app__navbar-menu-items-link active">
           {items.title}
         </Link>
       )}

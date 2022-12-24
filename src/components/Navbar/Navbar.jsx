@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaTimes, FaBars } from "react-icons/fa";
+import { VscClose } from "react-icons/vsc";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "./Navbar.scss";
 import { images } from "../../constants";
 import Button from "../Button/Button";
@@ -13,7 +14,7 @@ function Navbar() {
   const handleClick = () => {
     setClick(!click);
   };
-  const closeMobileMenu = () => setClick(false);
+  // const closeMobileMenu = () => setClick(false);
 
   return (
     <header>
@@ -25,7 +26,7 @@ function Navbar() {
           <p>Envision Health access initiative</p>
         </div>
         <div className="app__navbar-icon" onClick={handleClick}>
-          {click ? <FaTimes /> : <FaBars />}
+          {click ? <VscClose /> : <RxHamburgerMenu />}
         </div>
         {/* TODO: Add active state if possible */}
         <ul className={click ? "app__navbar-menu active" : "app__navbar-menu"}>
@@ -34,7 +35,7 @@ function Navbar() {
               <MenuItems
                 items={menu}
                 key={index}
-                closeMobileMenu={closeMobileMenu}
+                // closeMobileMenu={closeMobileMenu}
               />
             );
           })}
