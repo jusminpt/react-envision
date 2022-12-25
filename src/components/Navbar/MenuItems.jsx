@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 
 function MenuItems({ items }) {
   const pathname = useLocation().pathname;
-  console.log(pathname);
+  console.log(pathname.includes("resources"));
   const [dropdown, setDropdown] = useState(false);
   const [click, setClick] = useState(false);
 
@@ -44,14 +44,25 @@ function MenuItems({ items }) {
         <>
           <Link
             onClick={closeMobileMenu}
-            className="app__navbar-menu-items-link"
+            className={
+              pathname.includes(items.title.toLowerCase())
+                ? "app__navbar-menu-items-link activePage"
+                : "app__navbar-menu-items-link"
+            }
           >
             {items.title}{" "}
           </Link>
           {dropdown && <Dropdown sublinks={items.sublink} />}
         </>
       ) : (
-        <Link to={items.url} className="app__navbar-menu-items-link active">
+        <Link
+          to={items.url}
+          className={
+            pathname === "/"
+              ? "app__navbar-menu-items-link activePage"
+              : "app__navbar-menu-items-link"
+          }
+        >
           {items.title}
         </Link>
       )}

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { VscClose } from "react-icons/vsc";
 import { RxHamburgerMenu } from "react-icons/rx";
 import "./Navbar.scss";
@@ -16,6 +16,12 @@ function Navbar() {
   };
   // const closeMobileMenu = () => setClick(false);
 
+  //close nav mobile when page chage
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setClick(false);
+  }, [pathname]);
+
   return (
     <header>
       <nav className="app__navbar">
@@ -28,7 +34,6 @@ function Navbar() {
         <div className="app__navbar-icon" onClick={handleClick}>
           {click ? <VscClose /> : <RxHamburgerMenu />}
         </div>
-        {/* TODO: Add active state if possible */}
         <ul className={click ? "app__navbar-menu active" : "app__navbar-menu"}>
           {linksData.map((menu, index) => {
             return (

@@ -31,11 +31,11 @@ const linksData = [
     sublink: [
       {
         title: "Meet the Team",
-        url: "meet-the-team",
+        url: "resources/meet-the-team",
       },
       {
         title: "Our Mission",
-        url: "our-mission",
+        url: "resources/our-mission",
       },
     ],
   },

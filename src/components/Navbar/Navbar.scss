@@ -65,8 +65,12 @@
       }
     }
 
-    &-link.active {
+    &-link.activePage {
       background-color: red;
+    }
+
+    &-link:first-letter {
+      text-transform: uppercase;
     }
   }
 }
@@ -138,7 +142,22 @@
     left: 100%;
     opacity: 0;
     transition: all 0.5s ease;
-    color: white;
+    font-size: var(--font-medium);
+
+    &-items {
+      line-height: 2.5;
+
+      &-link::after {
+        content: none;
+      }
+    }
+
+    &-items:hover {
+      a {
+        font-weight: 600;
+        color: var(--color-drak-blue);
+      }
+    }
   }
   .app__navbar-menu.active {
     background: var(--color-white);
@@ -147,16 +166,17 @@
     transition: all 0.5s ease;
     z-index: 1;
     padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
   }
 
-  .app__navbar-menu-link :visited + .app__navbar-dropdown {
-    overflow: hidden;
-    max-width: 500px;
+  .app__navbar-dropdown {
+    display: contents;
+    font-size: var(--font-medium);
+    a {
+      margin-left: 15px;
+      color: var(--color-black);
+    }
   }
-
-  // .app__navbar-dropdown {
-  //   display: table-row;
-  // }
 
   .app__navbar-logo p {
     display: none;
