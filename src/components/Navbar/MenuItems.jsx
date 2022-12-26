@@ -45,7 +45,7 @@ function MenuItems({ items }) {
           <Link
             onClick={closeMobileMenu}
             className={
-              pathname.includes(items.title.toLowerCase())
+              pathname.includes(items.title.toLowerCase().replace(/\s/g, ""))
                 ? "app__navbar-menu-items-link activePage"
                 : "app__navbar-menu-items-link"
             }

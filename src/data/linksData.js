@@ -9,19 +9,19 @@ const linksData = [
     sublink: [
       {
         title: "Resouces",
-        url: "resouces",
+        url: "whatwedo/resouces",
       },
       {
         title: "Liberia",
-        url: "Liberia",
+        url: "whatwedo/Liberia",
       },
       {
         title: "United States",
-        url: "us",
+        url: "whatwedo/us",
       },
       {
         title: "Covid-19",
-        url: "covid-19",
+        url: "whatwedo/covid-19",
       },
     ],
   },
@@ -45,11 +45,11 @@ const linksData = [
     sublink: [
       {
         title: "Meet the Team",
-        url: "meet-the-team",
+        url: "getinvolved/meet-the-team",
       },
       {
         title: "Our Mission",
-        url: "our-mission",
+        url: "getinvolved/our-mission",
       },
     ],
   },
@@ -59,19 +59,19 @@ const linksData = [
     sublink: [
       {
         title: "Meet the Team",
-        url: "meet-the-team",
+        url: "aboutus/meet-the-team",
       },
       {
         title: "Our Mission",
-        url: "our-mission",
+        url: "aboutus/our-mission",
       },
       {
         title: "Financial Report",
-        url: "financial-report",
+        url: "aboutus/financial-report",
       },
       {
         title: "Term of Service",
-        url: "term-of-service",
+        url: "aboutus/term-of-service",
       },
     ],
   },
