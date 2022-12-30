@@ -141,7 +141,7 @@
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 60px;
+    top: 0;
     right: -100%;
     opacity: 0;
     transition: all 0.5s ease;
@@ -177,10 +177,10 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    width: 85%;
+    width: 75%;
     margin-left: 40px;
     padding: 50px 40px 0 0;
-    box-shadow: 0 0 8px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: -200px 0 8px 0 rgba(0, 0, 0, 0.05);
   }
 
   .app__navbar-dropdown {
