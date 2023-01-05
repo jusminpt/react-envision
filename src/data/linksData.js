@@ -5,12 +5,8 @@ const linksData = [
   },
   {
     title: "What We Do",
-    url: "/",
+    url: "/whatwedo",
     sublink: [
-      {
-        title: "Resouces",
-        url: "whatwedo/resouces",
-      },
       {
         title: "Liberia",
         url: "whatwedo/Liberia",
@@ -20,6 +16,10 @@ const linksData = [
         url: "whatwedo/us",
       },
       {
+        title: "Financial Report",
+        url: "whatwedo/financial-report",
+      },
+      {
         title: "Covid-19",
         url: "whatwedo/covid-19",
       },
@@ -27,7 +27,7 @@ const linksData = [
   },
   {
     title: "Resources",
-    url: "/",
+    url: "/resources",
     sublink: [
       {
         title: "Meet the Team",
@@ -41,7 +41,7 @@ const linksData = [
   },
   {
     title: "Get Involved",
-    url: "/",
+    url: "/getinvolved",
     sublink: [
       {
         title: "Meet the Team",
@@ -55,7 +55,7 @@ const linksData = [
   },
   {
     title: "About Us",
-    url: "/",
+    url: "/aboutus",
     sublink: [
       {
         title: "Meet the Team",
@@ -66,8 +66,8 @@ const linksData = [
         url: "aboutus/our-mission",
       },
       {
-        title: "Financial Report",
-        url: "aboutus/financial-report",
+        title: "Volunteer",
+        url: "aboutus/volunteer",
       },
       {
         title: "Term of Service",

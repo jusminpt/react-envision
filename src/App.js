@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar, Footer } from "./components";
-import Home from "./pages/Home/Home";
-import MeetTeam from "./pages/MeetTeam/MeetTeam";
+import { Home, WhatWeDo, Resources, GetInvolved, AboutUs } from "./pages";
 import "./App.scss";
 
 function App() {
@@ -14,7 +13,10 @@ function App() {
           <Routes>
             {/* TODO: Add more paths when finalize */}
             <Route exact path="/" element={<Home />} />
-            <Route path="/meet-the-team" element={<MeetTeam />} />
+            <Route exact path="/whatwedo" element={<WhatWeDo />} />
+            <Route exact path="/resources" element={<Resources />} />
+            <Route exact path="/getinvolved" element={<GetInvolved />} />
+            <Route exact path="/aboutus" element={<AboutUs />} />
           </Routes>
         </main>
         <Footer />

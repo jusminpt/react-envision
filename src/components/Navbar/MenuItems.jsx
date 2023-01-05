@@ -9,12 +9,12 @@ function MenuItems({ items }) {
   const [dropdown, setDropdown] = useState(false);
   const [click, setClick] = useState(false);
 
-  const handleClick = () => {
-    setClick(!click);
-    if (window.innerWidth < 960) {
-      setDropdown(!dropdown);
-    }
-  };
+  // const handleClick = () => {
+  //   setClick(!click);
+  //   if (window.innerWidth < 960) {
+  //     setDropdown(!dropdown);
+  //   }
+  // };
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
@@ -36,13 +36,15 @@ function MenuItems({ items }) {
   return (
     <li
       className="app__navbar-menu-items"
-      onClick={handleClick}
+      // onClick={handleClick}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
       {items.sublink ? (
         <>
           <Link
+            // TODO : What is the flow of mobile version?
+            to={items.url}
             onClick={closeMobileMenu}
             className={
               pathname.includes(items.title.toLowerCase().replace(/\s/g, ""))
