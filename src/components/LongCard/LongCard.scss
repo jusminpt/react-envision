@@ -1,13 +1,16 @@
 .longCard {
-  height: 168px;
   background-size: cover;
   background-position: center;
   opacity: 0.5;
-  margin: 100px 80px;
   padding: 24px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
 }
 
 .longCard h3 {
