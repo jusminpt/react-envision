@@ -17,6 +17,7 @@ function App() {
             <Route exact path="/resources" element={<Resources />} />
             <Route exact path="/getinvolved" element={<GetInvolved />} />
             <Route exact path="/aboutus" element={<AboutUs />} />
+            <Route path="*" element={"Page not founded 404"} />
           </Routes>
         </main>
         <Footer />
