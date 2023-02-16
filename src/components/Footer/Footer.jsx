@@ -30,7 +30,6 @@ function Footer() {
             <div>
               <h3>What We Do</h3>
               <ul>
-                {/* TODO : find a better way to map */}
                 {linksData.map(
                   (item) =>
                     item.title === "What We Do" &&
@@ -47,7 +46,6 @@ function Footer() {
             <div>
               <h3>About Us</h3>
               <ul>
-                {/* TODO : find a better way to map */}
                 {linksData.map(
                   (item) =>
                     item.title === "About Us" &&
