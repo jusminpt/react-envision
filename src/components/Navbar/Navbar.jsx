@@ -22,6 +22,7 @@ function Navbar() {
     setClick(false);
   }, [pathname]);
 
+  // TODO: Check if finalized, then updata the linkData.js and styling for both desktop and mobile version
   return (
     <header>
       <nav className="app__navbar">
@@ -44,7 +45,11 @@ function Navbar() {
               />
             );
           })}
-          <Button textInput="Donate" styleBtn="primary" />
+          <Button
+            textInput="Donate"
+            styleBtn="primary"
+            urlBtn="https://www.paypal.com/donate/?hosted_button_id=RYT8VQHJQY8FQ"
+          />
         </ul>
       </nav>
     </header>

@@ -13,7 +13,11 @@ function Footer() {
         <div className="app__footer-subtract"></div>
         <div className="app__footer-hero">
           <p>Help Us In The Fight Against AIDS</p>
-          <Button textInput="Donate" styleBtn="secondary" />
+          <Button
+            textInput="Donate"
+            styleBtn="secondary"
+            urlBtn="https://www.paypal.com/donate/?hosted_button_id=RYT8VQHJQY8FQ"
+          />
         </div>
         <div className="app__footer-links">
           <div className="app__footer-links-left">

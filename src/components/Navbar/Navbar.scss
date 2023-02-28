@@ -3,6 +3,7 @@
   height: 87px;
   padding: 21px 48px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  font-size: var(--font-medium);
 
   display: flex;
   justify-content: space-between;
@@ -185,7 +186,7 @@
 
   .app__navbar-dropdown {
     display: contents;
-    font-size: var(--font-medium);
+    font-size: var(--font-small);
 
     li {
       text-align: right;

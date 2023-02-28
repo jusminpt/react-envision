@@ -5,6 +5,7 @@ import "./LongCard.scss";
 
 function LongCard({ textInput }) {
   return (
+    // TODO: Style, rename, add info
     <div className="longCard" style={{ backgroundImage: `url(${img})` }}>
       <h3>{textInput}</h3>
       <div className="longCard-left">

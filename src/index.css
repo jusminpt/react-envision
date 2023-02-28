@@ -3,10 +3,10 @@
 :root {
   /* font */
   --font-base: "Inter", sans-serif;
-  --font-default-size: 16px;
+  --font-default-size: 20px;
   --font-title: 48px;
   --font-title3: 24px;
-  --font-medium: 14px;
+  --font-medium: 16px;
   --font-small: 12px;
 
   /* color */

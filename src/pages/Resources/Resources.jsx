@@ -22,8 +22,10 @@ function Resources() {
           diam quam, semper iaculis condimentum ac, vestibulum eu nisl.226226
         </p>
         <div className="card-section">
-          <LongCard textInput="visit the CDC for more information" />
-          <LongCard textInput="visit the CDC for more information" />
+          {/* TODO: Find the info and doc associate with content */}
+          {/* TODO: Style and rename card */}
+          <LongCard textInput="HIV and Covid-19 Prevention" />
+          <LongCard textInput="Our financial reports" />
         </div>
       </div>
     </div>
