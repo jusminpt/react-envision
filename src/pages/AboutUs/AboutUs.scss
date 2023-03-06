@@ -1,0 +1,51 @@
+.mission-container {
+  background-color: var(--color-baby-blue);
+  margin-top: 80px;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    color: var(--color-drak-blue);
+    margin-bottom: 20px;
+  }
+}
+
+.mission-div-50 {
+  display: flex;
+  margin-bottom: 60px;
+
+  &-content {
+    width: 50%;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+}
+
+.mission-div-100 {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .mission-container {
+    margin-top: 40px;
+    padding: 20px;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .mission-div-50 {
+    flex-direction: column;
+    margin-bottom: 30px;
+    &-content {
+      width: 100%;
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

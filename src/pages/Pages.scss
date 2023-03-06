@@ -3,3 +3,9 @@
   flex-direction: column;
   margin: 90px 166px;
 }
+
+@media screen and (max-width: 960px) {
+  .page-section {
+    margin: 50px;
+  }
+}
