@@ -1,0 +1,31 @@
+.title {
+    font-size: 36px;
+    margin-top: 70px;
+}
+
+.title-2 {
+    font-size: 36px;
+    padding-top: 40px;
+}
+
+
+//To make header and paragraph position consistent with rest of the page.
+.page-format { 
+    margin: 90px 166px;
+}
+
+// .container {
+// }
+
+
+// .content {
+// }
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    justify-items: center;
+    margin-bottom: 220px;
+    padding-bottom: 40px;
+}
