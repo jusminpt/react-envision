@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.scss";
-import { PageHero } from "../../components";
+import { PageHero, TeamCard } from "../../components";
 
 function AboutUs() {
   return (
@@ -16,7 +16,6 @@ function AboutUs() {
           community-based organizations, faith-based organizations, and HIV
           research institutions.
         </p>
-        {/* TODO: Style the section */}
         <div className="mission-container">
           <div className="mission-div-50">
             <div className="mission-div-50-content">
@@ -48,8 +47,18 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="aboutUs-teamMember">
+        <div className="team-container">
           {/* TODO: Create a team member card and insert here */}
+          <h2>Meet our team</h2>
+          <span>Meet our team</span>
+          <div className="team-container-card">
+            <TeamCard />
+            <TeamCard />
+            <TeamCard />
+            <TeamCard />
+            <TeamCard />
+            <TeamCard />
+          </div>
         </div>
       </div>
     </div>

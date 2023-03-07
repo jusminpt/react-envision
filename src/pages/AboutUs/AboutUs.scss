@@ -28,6 +28,33 @@
   width: 100%;
 }
 
+.team-container {
+  margin-top: 80px;
+
+  h2 {
+    position: relative;
+    color: var(--color-drak-blue);
+    margin-bottom: -70px;
+    z-index: 50;
+  }
+
+  span {
+    position: relative;
+    font-weight: 800;
+    font-size: 10.5vw;
+    color: var(--color-baby-blue);
+    filter: blur(1px);
+    z-index: 0;
+  }
+
+  &-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .mission-container {
     margin-top: 40px;
@@ -46,6 +73,20 @@
       &:not(:last-child) {
         margin-bottom: 30px;
       }
+    }
+  }
+
+  .team-container {
+    margin-top: 40px;
+    h2 {
+      margin-bottom: -25px;
+    }
+    span {
+      font-size: 10vw;
+    }
+    &-card {
+      margin-top: 30px;
+      flex-direction: column;
     }
   }
 }
