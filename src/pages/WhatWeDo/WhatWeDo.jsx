@@ -4,8 +4,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./WhatWeDo.scss";
 // import "../Pages.scss";
 
-{/* TODO: Create project card including styling and insert here */}
-{/* TODO: Might need to create a projectData.js to store info */}
+/* TODO: Might need to create a projectData.js to store info */
 
 function WhatWeDo() {
   return (
@@ -26,54 +25,67 @@ function WhatWeDo() {
           diam quam, semper iaculis condimentum ac, vestibulum eu nisl.226226
         </p>
 
-        <h1 className="title">Explore Projects in United States </h1>
+        <h1 className="title">Explore Projects in United States</h1>
 
         <div className="projectGrid">
-          {/* Project Card element for 3x2 Grid */}
-          <ProjectCard projTitleInput="Title of Project" 
-          paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-          style={{  paddingBottom: "30px", paddingTop: "30px" }}
-          />
+          
+          <div className="card">
+            {/* Project Card element for 3x2 Grid */}
+            <ProjectCard projTitleInput="Title of Project" 
+            paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
+            style={{  paddingBottom: "30px", paddingTop: "30px" }}
+            />
+          </div>
 
-          {/* Project Card element for 3x2 Grid */}
-          <ProjectCard projTitleInput="Title of Project" 
-          paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-          style={{  paddingBottom: "30px", paddingTop: "30px" }}
-          />
+          <div className="card">
+            {/* Project Card element for 3x2 Grid */}
+            <ProjectCard projTitleInput="Title of Project" 
+            paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
+            style={{  paddingBottom: "30px", paddingTop: "30px" }}
+            />
+          </div>
 
-          {/* Project Card element for 3x2 Grid */}
-          <ProjectCard projTitleInput="Title of Project" 
-          paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-          style={{  paddingBottom: "30px", paddingTop: "30px" }}
-          />
+          <div className="card">
+            {/* Project Card element for 3x2 Grid */}
+            <ProjectCard projTitleInput="Title of Project" 
+            paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
+            style={{  paddingBottom: "30px", paddingTop: "30px" }}
+            />
+          </div>
+
         </div>
 
-        {/* Second H1 Title  */}
+        {/* Second H1 Title */}
         <h1 className="title-2">Explore Projects in Liberia </h1>
 
         <div className="projectGrid">
           
-          {/* Project Card element for 3x2 Grid */}
-          <ProjectCard projTitleInput="Title of Project" 
-          paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-          style={{  paddingBottom: "30px", paddingTop: "30px" }}
-          />
+          <div className="card">
+              {/* Project Card element for 3x2 Grid */}
+              <ProjectCard projTitleInput="Title of Project" 
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
+              style={{  paddingBottom: "30px", paddingTop: "30px" }}
+              />
+          </div>
 
-          {/* Project Card element for 3x2 Grid */}
-          <ProjectCard projTitleInput="Title of Project" 
-          paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-          style={{  paddingBottom: "30px", paddingTop: "30px" }}
-          />
+          <div className="card">
+              {/* Project Card element for 3x2 Grid */}
+              <ProjectCard projTitleInput="Title of Project" 
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
+              style={{  paddingBottom: "30px", paddingTop: "30px" }}
+              />
+          </div>
 
-          {/* Project Card element for 3x2 Grid */}
-          <ProjectCard projTitleInput="Title of Project" 
-          paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-          style={{  paddingBottom: "30px", paddingTop: "30px" }}
-          />
+          <div className="card">
+              {/* Project Card element for 3x2 Grid */}
+              <ProjectCard projTitleInput="Title of Project" 
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
+              style={{  paddingBottom: "30px", paddingTop: "30px" }}
+              />
+          </div>
+
         </div>
-
       </div>
-
     </div>
   );
 }

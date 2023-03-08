@@ -34,32 +34,3 @@ function ProjectCard({  projTitleInput, paraInput, style }) {
 }
 
 export default ProjectCard;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function ProjectCard({ textInput }) {
-//   return (
-//     // TODO: Style, rename, add info
-//     <div className="cardContainer">
-//         <div className="cardContent" style={{ backgroundImage: `url(${img})` }}> 
-//             <h3>{textInput}</h3>
-//             <div className="btnContainer">
-//                 <Button textInput="Visit Page" />
-//             </div>
-//         </div>
-//     </div>
-//   );
-// }
-
-// export default ProjectCard;

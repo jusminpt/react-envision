@@ -1,25 +1,16 @@
 .cardContainer {
-    // border: 3px solid red;
     background-position: center;
-    // opacity: 0.5;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // width: 100%;
-    // border: solid blue 5px;
     width: 400px; /* make the image container the full width of the card */
     height: 200px; /* set the height of the image container */
 }
 
 .cardContent {
-    // border: solid red 5px;
-    // background-color: yellow;
     padding: 30px;
     box-shadow: 0 8px 8px -4px rgb(224, 224, 224);
   }
   
   .imageContainer {
-    overflow: hidden; /* hide any overflow from the image */
+    overflow: hidden; 
     // border: solid green 5px;
   }
   
