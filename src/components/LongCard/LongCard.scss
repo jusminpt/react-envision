@@ -26,3 +26,14 @@
 .longCard button {
   width: 125px;
 }
+
+// TODO: need to get the final design for mobile version
+@media screen and (max-width: 960px) {
+  .longCard {
+    height: 40vh;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
