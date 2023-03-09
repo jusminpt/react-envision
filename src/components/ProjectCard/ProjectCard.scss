@@ -1,0 +1,25 @@
+.cardContainer {
+    background-position: center;
+    width: 400px; /* make the image container the full width of the card */
+    height: 200px; /* set the height of the image container */
+}
+
+.cardContent {
+    padding: 30px;
+    box-shadow: 0 8px 8px -4px rgb(224, 224, 224);
+  }
+  
+  .imageContainer {
+    overflow: hidden; 
+    // border: solid green 5px;
+  }
+  
+  .projectImage {
+    width: 100%; /* make the image fill the entire image container */
+    height: 100%; /* make the image fill the entire image container */
+    object-fit: cover; /* make the image cover the entire container without distortion */
+  }
+
+  .btnContainer {
+    padding-top: 20px;
+  }
