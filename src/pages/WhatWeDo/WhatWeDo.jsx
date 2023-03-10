@@ -10,7 +10,7 @@ function WhatWeDo() {
   return (
     <div className="container">
       <PageHero headingText="What We Do" />
-      <div className="content page-format">
+      <div className="page-section">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis. Class
@@ -28,62 +28,64 @@ function WhatWeDo() {
         <h1 className="title">Explore Projects in United States</h1>
 
         <div className="projectGrid">
-          
           <div className="card">
             {/* Project Card element for 3x2 Grid */}
-            <ProjectCard projTitleInput="Title of Project" 
-            paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-            style={{  paddingBottom: "30px", paddingTop: "30px" }}
+            <ProjectCard
+              projTitleInput="Title of Project"
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
+              style={{ paddingBottom: "30px", paddingTop: "30px" }}
             />
           </div>
 
           <div className="card">
             {/* Project Card element for 3x2 Grid */}
-            <ProjectCard projTitleInput="Title of Project" 
-            paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-            style={{  paddingBottom: "30px", paddingTop: "30px" }}
+            <ProjectCard
+              projTitleInput="Title of Project"
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
+              style={{ paddingBottom: "30px", paddingTop: "30px" }}
             />
           </div>
 
           <div className="card">
             {/* Project Card element for 3x2 Grid */}
-            <ProjectCard projTitleInput="Title of Project" 
-            paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-            style={{  paddingBottom: "30px", paddingTop: "30px" }}
+            <ProjectCard
+              projTitleInput="Title of Project"
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
+              style={{ paddingBottom: "30px", paddingTop: "30px" }}
             />
           </div>
-
         </div>
 
         {/* Second H1 Title */}
         <h1 className="title-2">Explore Projects in Liberia </h1>
 
         <div className="projectGrid">
-          
           <div className="card">
-              {/* Project Card element for 3x2 Grid */}
-              <ProjectCard projTitleInput="Title of Project" 
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-              style={{  paddingBottom: "30px", paddingTop: "30px" }}
-              />
+            {/* Project Card element for 3x2 Grid */}
+            <ProjectCard
+              projTitleInput="Title of Project"
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
+              style={{ paddingBottom: "30px", paddingTop: "30px" }}
+            />
           </div>
 
           <div className="card">
-              {/* Project Card element for 3x2 Grid */}
-              <ProjectCard projTitleInput="Title of Project" 
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-              style={{  paddingBottom: "30px", paddingTop: "30px" }}
-              />
+            {/* Project Card element for 3x2 Grid */}
+            <ProjectCard
+              projTitleInput="Title of Project"
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
+              style={{ paddingBottom: "30px", paddingTop: "30px" }}
+            />
           </div>
 
           <div className="card">
-              {/* Project Card element for 3x2 Grid */}
-              <ProjectCard projTitleInput="Title of Project" 
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero." 
-              style={{  paddingBottom: "30px", paddingTop: "30px" }}
-              />
+            {/* Project Card element for 3x2 Grid */}
+            <ProjectCard
+              projTitleInput="Title of Project"
+              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
+              style={{ paddingBottom: "30px", paddingTop: "30px" }}
+            />
           </div>
-
         </div>
       </div>
     </div>

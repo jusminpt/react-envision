@@ -15,14 +15,6 @@ const linksData = [
         title: "United States",
         url: "whatwedo/us",
       },
-      {
-        title: "Financial Report",
-        url: "whatwedo/financial-report",
-      },
-      {
-        title: "Covid-19",
-        url: "whatwedo/covid-19",
-      },
     ],
   },
   {
@@ -30,12 +22,12 @@ const linksData = [
     url: "/resources",
     sublink: [
       {
-        title: "Meet the Team",
-        url: "resources/meet-the-team",
+        title: "Covid-19",
+        url: "resources/hiv-covid-19",
       },
       {
-        title: "Our Mission",
-        url: "resources/our-mission",
+        title: "Financial Report",
+        url: "resources/financial-report",
       },
     ],
   },

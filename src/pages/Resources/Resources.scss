@@ -1,11 +1,11 @@
-.card-section {
+.resourcesCard-section {
   display: flex;
   margin-top: 50px;
   height: 600px;
 }
 
 @media screen and (max-width: 960px) {
-  .card-section {
+  .resourcesCard-section {
     flex-direction: column;
   }
 }

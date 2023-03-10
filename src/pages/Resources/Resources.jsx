@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHero, LongCard } from "../../components";
+import { PageHero, ResourceCard } from "../../components";
 import "./Resources.scss";
 import "../Pages.scss";
 
@@ -21,11 +21,13 @@ function Resources() {
           urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut
           diam quam, semper iaculis condimentum ac, vestibulum eu nisl.226226
         </p>
-        <div className="card-section">
+        <div className="resourcesCard-section">
           {/* TODO: Find the info and doc associate with content */}
-          {/* TODO: Style and rename card */}
-          <LongCard textInput="HIV and Covid-19 Prevention" />
-          <LongCard textInput="Our financial reports" />
+          <ResourceCard
+            textInput="HIV and Covid-19 Prevention"
+            urlBtn="resourses/hiv-covid-19"
+          />
+          <ResourceCard textInput="Our financial reports" />
         </div>
       </div>
     </div>

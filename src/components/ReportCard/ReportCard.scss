@@ -1,0 +1,40 @@
+.reportCard {
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: var(--font-title3);
+    color: var(--color-white);
+  }
+}
+
+.reportCard-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reportCard button {
+  width: 125px;
+}
+
+// TODO: need to get the final design for mobile version
+@media screen and (max-width: 960px) {
+  .reportCard {
+    // height: 40vh;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}

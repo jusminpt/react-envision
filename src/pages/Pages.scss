@@ -2,10 +2,23 @@
   display: flex;
   flex-direction: column;
   margin: 90px 166px;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.card-section {
+  margin-top: 50px;
+  padding: 0 80px;
 }
 
 @media screen and (max-width: 960px) {
   .page-section {
     margin: 50px;
+  }
+  .card-section {
+    margin-top: 50px;
+    padding: 0px;
   }
 }

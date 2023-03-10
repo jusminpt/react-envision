@@ -1,4 +1,4 @@
-.longCard {
+.resourceCard {
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -13,17 +13,17 @@
   }
 }
 
-.longCard h3 {
+.resourceCard h3 {
   font-size: var(--font-title3);
   color: var(--color-white);
 }
 
-.longCard-left {
+.resourceCard-left {
   display: flex;
   justify-content: flex-end;
 }
 
-.longCard button {
+.resourceCard button {
   width: 125px;
 }
 
