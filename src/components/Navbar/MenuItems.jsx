@@ -52,7 +52,7 @@ function MenuItems({ items }) {
         <Link
           to={items.url}
           className={
-            pathname === "/"
+            pathname === items.url
               ? "app__navbar-menu-items-link activePage"
               : "app__navbar-menu-items-link"
           }

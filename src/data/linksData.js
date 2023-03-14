@@ -6,16 +6,6 @@ const linksData = [
   {
     title: "What We Do",
     url: "/whatwedo",
-    sublink: [
-      {
-        title: "Liberia",
-        url: "whatwedo/Liberia",
-      },
-      {
-        title: "United States",
-        url: "whatwedo/us",
-      },
-    ],
   },
   {
     title: "Resources",
@@ -34,38 +24,10 @@ const linksData = [
   {
     title: "Get Involved",
     url: "/getinvolved",
-    sublink: [
-      {
-        title: "Meet the Team",
-        url: "getinvolved/meet-the-team",
-      },
-      {
-        title: "Our Mission",
-        url: "getinvolved/our-mission",
-      },
-    ],
   },
   {
     title: "About Us",
     url: "/aboutus",
-    sublink: [
-      {
-        title: "Meet the Team",
-        url: "aboutus/meet-the-team",
-      },
-      {
-        title: "Our Mission",
-        url: "aboutus/our-mission",
-      },
-      {
-        title: "Volunteer",
-        url: "aboutus/volunteer",
-      },
-      {
-        title: "Term of Service",
-        url: "aboutus/term-of-service",
-      },
-    ],
   },
 ];
 

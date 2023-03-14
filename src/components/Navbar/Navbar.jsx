@@ -30,7 +30,7 @@ function Navbar() {
           <Link to="/">
             <img src={images.navLogo} className="" alt="logo" />
           </Link>
-          <p>Envision Health access initiative</p>
+          <p>Envision Health Access Initiative</p>
         </div>
         <div className="app__navbar-icon" onClick={handleClick}>
           {click ? <VscClose /> : <RxHamburgerMenu />}

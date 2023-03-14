@@ -9,6 +9,7 @@ function Footer() {
   console.log(linksData.findIndex((item) => item.title === "What We Do"));
   return (
     <footer>
+      {/* TODO: Waiting for final design */}
       <div className="app__footer">
         <div className="app__footer-subtract"></div>
         <div className="app__footer-hero">
@@ -31,7 +32,7 @@ function Footer() {
                 ))}
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h3>What We Do</h3>
               <ul>
                 {linksData.map(
@@ -44,9 +45,9 @@ function Footer() {
                     ))
                 )}
               </ul>
-            </div>
-          </div>
-          <div className="app__footer-links-right">
+            </div> */}
+            {/* </div> */}
+            {/* <div className="app__footer-links-right">
             <div>
               <h3>About Us</h3>
               <ul>
@@ -60,7 +61,7 @@ function Footer() {
                     ))
                 )}
               </ul>
-            </div>
+            </div> */}
             <div>
               <h3>Talk to Us</h3>
               <ul>
