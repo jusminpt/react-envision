@@ -3,6 +3,9 @@
   flex-direction: column;
   margin: 90px 166px;
 
+  h2 {
+    font-size: var(--font-title2);
+  }
   p {
     text-align: justify;
   }
