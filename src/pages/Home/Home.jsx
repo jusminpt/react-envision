@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "../../components";
-import founder from "../../assets/img/image 2.png";
+import founder from "../../assets/img/founder.png";
 import video from "../../assets/img/people with water.mp4";
 import "./Home.scss";
 
@@ -45,8 +46,12 @@ function Home() {
           <h3>Explore Projects</h3>
           <hr />
           <ul>
-            <li>United States</li>
-            <li>Liberia</li>
+            <li>
+              <Link to="/whatwedo">United States</Link>
+            </li>
+            <li>
+              <Link to="/whatwedo">Liberia</Link>
+            </li>
           </ul>
         </div>
       </div>
