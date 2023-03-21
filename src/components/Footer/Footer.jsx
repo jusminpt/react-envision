@@ -6,10 +6,8 @@ import { images } from "../../constants";
 import linksData from "../../data/linksData";
 
 function Footer() {
-  console.log(linksData.findIndex((item) => item.title === "What We Do"));
   return (
     <footer>
-      {/* TODO: Waiting for final design */}
       <div className="app__footer">
         <div className="app__footer-subtract"></div>
         <div className="app__footer-hero">
@@ -32,36 +30,39 @@ function Footer() {
                 ))}
               </ul>
             </div>
-            {/* <div>
+            <div>
               <h3>What We Do</h3>
               <ul>
-                {linksData.map(
-                  (item) =>
-                    item.title === "What We Do" &&
-                    item.sublink.map((item, index) => (
-                      <li key={`link-${index}`}>
-                        <Link to={`${item.url}`}>{item.title}</Link>
-                      </li>
-                    ))
-                )}
+                <li>
+                  <Link to="/whatwedo">Our Work</Link>
+                </li>
+                <li>
+                  <Link to="/resources/financial-report">Financial Report</Link>
+                </li>
+                <li>
+                  <Link to="/resources/hiv-covid-19">Covid-19</Link>
+                </li>
               </ul>
-            </div> */}
-            {/* </div> */}
-            {/* <div className="app__footer-links-right">
+            </div>
+          </div>
+          <div className="app__footer-links-right">
             <div>
               <h3>About Us</h3>
               <ul>
-                {linksData.map(
-                  (item) =>
-                    item.title === "About Us" &&
-                    item.sublink.map((item, index) => (
-                      <li key={`link-${index}`}>
-                        <Link to={`${item.url}`}>{item.title}</Link>
-                      </li>
-                    ))
-                )}
+                <li>
+                  <Link to="/aboutus">Meet the Team</Link>
+                </li>
+                <li>
+                  <Link to="/aboutus">Our Mission</Link>
+                </li>
+                <li>
+                  <Link to="/getinvolved">Volunteer</Link>
+                </li>
+                <li>
+                  <Link to="/getinvolved">Terms of Service</Link>
+                </li>
               </ul>
-            </div> */}
+            </div>
             <div>
               <h3>Talk to Us</h3>
               <ul>
