@@ -7,7 +7,7 @@
     line-height: 1.5;
   }
 }
-.video-section {
+.home__video {
   position: relative;
 
   video {
@@ -16,7 +16,7 @@
     height: 70vh;
   }
 
-  .video-content {
+  &-content {
     position: absolute;
     top: 0;
     width: 100vw;
@@ -48,7 +48,7 @@
   }
 }
 
-.explore-section {
+.home__explore {
   height: 40vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 2, 2, 0.5)),
     url("../../assets/img/image\ 7.png");

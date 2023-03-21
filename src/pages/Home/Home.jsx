@@ -8,12 +8,12 @@ function Home() {
   // TODO: Update founder photo and btn style & link
   return (
     <div className="home-page">
-      <div className="video-section">
+      <div className="home__video">
         <video autoPlay muted loop>
           <source src={video} type="video/mp4" />
         </video>
-        <div className="video-content">
-          <div className="video-content-text">
+        <div className="home__video-content">
+          <div className="home__video-content-text">
             <h1>Our Commitment </h1>
             <p>
               Envision Health Access Initiative is a 501(c)3 non-profit that
@@ -21,6 +21,7 @@ function Home() {
               services, public health education, healthcare strengthening, and
               use in underprivileged areas.
             </p>
+            {/* TODO:24px and bold */}
             <Button textInput="Learn more" styleBtn="primary" />
           </div>
         </div>
@@ -39,7 +40,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="explore-section">
+      <div className="home__explore">
         <div className="page-section">
           <h3>Explore Projects</h3>
           <hr />
