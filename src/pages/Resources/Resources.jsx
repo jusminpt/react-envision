@@ -1,13 +1,16 @@
 import React from "react";
 import { PageHero, ResourceCard } from "../../components";
+import bannerResources from "../../assets/img/banner-resources.png";
+import resourcesData from "../../data/resourcesData";
 import "./Resources.scss";
 import "../Pages.scss";
 
 function Resources() {
   return (
     <div>
-      <PageHero headingText="Resources" />
+      <PageHero headingText="Resources" img={bannerResources} />
       <div className="page-section">
+        {/* TODO: Wait for updated paragraph */}
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis. Class
@@ -22,12 +25,9 @@ function Resources() {
           diam quam, semper iaculis condimentum ac, vestibulum eu nisl.226226
         </p>
         <div className="resourcesCard-section">
-          {/* TODO: Find the info and doc associate with content */}
-          <ResourceCard
-            textInput="HIV and Covid-19 Prevention"
-            urlBtn="resourses/hiv-covid-19"
-          />
-          <ResourceCard textInput="Our financial reports" />
+          {resourcesData.map((item) => (
+            <ResourceCard resourcesData={item} key={item.id} />
+          ))}
         </div>
       </div>
     </div>

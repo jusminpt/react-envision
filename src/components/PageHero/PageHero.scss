@@ -5,16 +5,20 @@
   align-items: center;
   background-size: cover;
   background-position: center;
-}
 
-.pagehero h1 {
-  color: var(--color-white);
-  font-size: var(--font-title);
-  margin-left: 166px;
+  h1 {
+    color: var(--color-white);
+    font-size: var(--font-title);
+    margin-left: 166px;
+  }
 }
 
 @media screen and (max-width: 960px) {
-  .pagehero h1 {
-    margin: 0 auto;
+  .pagehero {
+    h1 {
+      font-size: var(--font-mobile-title);
+      text-align: center;
+      margin: 0 auto;
+    }
   }
 }

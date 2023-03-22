@@ -1,11 +1,12 @@
 import React from "react";
 import { PageHero, ReportCard } from "../../components";
+import bannerHiv from "../../assets/img/banner-hiv.png";
 import "../Pages.scss";
 
 function HIVCovid19() {
   return (
     <div>
-      <PageHero headingText="HIV and Covid-19 Prevention" />
+      <PageHero headingText="HIV and Covid-19 Prevention" img={bannerHiv} />
       <div className="page-section">
         <p>
           The Envision Health Access Initiative recognizes that the pandemic has
@@ -19,7 +20,11 @@ function HIVCovid19() {
         </p>
         <div className="card-section">
           {/* TODO: Wait for CDC link */}
-          <ReportCard textInput="Visit the CDC for more information" />
+          <ReportCard
+            textInput="Visit the CDC for more information"
+            textBtn="Visit Page"
+            urlBtn="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+          />
         </div>
       </div>
     </div>

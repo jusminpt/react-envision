@@ -17,7 +17,7 @@
   /* color */
   --color-blue: #2591c3;
   --color-drak-blue: #2774b1;
-  --color-dark-blue-2: #184568;
+  --color-dark-blue-2: #4c6477;
   --color-light-blue: #a5d8ec;
   --color-baby-blue: #f2f9ff;
   --color-black: #04080c;
@@ -46,6 +46,6 @@ body {
 
 @media screen and (max-width: 960px) {
   h1 {
-    font-size: 36px;
+    font-size: var(--font-mobile-title);
   }
 }
