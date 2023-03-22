@@ -6,7 +6,6 @@ import video from "../../assets/img/places video.mp4";
 import "./Home.scss";
 
 function Home() {
-  // TODO: Update founder photo and btn style & link
   return (
     <div className="home-page">
       <div className="home__video">
@@ -22,7 +21,6 @@ function Home() {
               services, public health education, healthcare strengthening, and
               use in underprivileged areas.
             </p>
-            {/* TODO:24px and bold */}
             <Button
               textInput="Learn more"
               styleBtn="primary"
