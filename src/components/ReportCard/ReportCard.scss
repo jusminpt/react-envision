@@ -20,7 +20,7 @@
   }
 
   button {
-    width: 20%;
+    width: fit-content;
   }
 }
 
@@ -33,6 +33,7 @@
 @media screen and (max-width: 960px) {
   .reportCard {
     text-align: center;
+    height: 25vh;
 
     &:not(:last-child) {
       margin-bottom: 30px;
@@ -45,6 +46,7 @@
     button {
       margin-top: 20px;
       width: 100%;
+      font-size: 12px;
     }
   }
 }

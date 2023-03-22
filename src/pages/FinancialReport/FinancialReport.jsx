@@ -1,11 +1,12 @@
 import React from "react";
 import { PageHero, ReportCard } from "../../components";
+import bannerFinancial from "../../assets/img/banner-financial.png";
 import "../Pages.scss";
 
 function FinancialReport() {
   return (
     <div>
-      <PageHero headingText="Financial Report" />
+      <PageHero headingText="Financial Report" img={bannerFinancial} />
       <div className="page-section">
         <p>
           The finances of the Envision Health Access Initiative are completely
@@ -21,9 +22,21 @@ function FinancialReport() {
         </p>
         <div className="card-section">
           {/* TODO: Wait for report */}
-          <ReportCard textInput="Financial reports for 2022" />
-          <ReportCard textInput="Financial reports for 2022" />
-          <ReportCard textInput="Financial reports for 2022" />
+          <ReportCard
+            textInput="Financial reports for 2022"
+            textBtn="See Document"
+            urlBtn="/"
+          />
+          <ReportCard
+            textInput="Financial reports for 2022"
+            textBtn="See Document"
+            urlBtn="/"
+          />
+          <ReportCard
+            textInput="Financial reports for 2022"
+            textBtn="See Document"
+            urlBtn="/"
+          />
         </div>
       </div>
     </div>
