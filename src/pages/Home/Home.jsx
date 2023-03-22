@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../components";
 import founder from "../../assets/img/founder.png";
-import video from "../../assets/img/people with water.mp4";
+import video from "../../assets/img/places video.mp4";
 import "./Home.scss";
 
 function Home() {
@@ -23,7 +23,11 @@ function Home() {
               use in underprivileged areas.
             </p>
             {/* TODO:24px and bold */}
-            <Button textInput="Learn more" styleBtn="primary" />
+            <Button
+              textInput="Learn more"
+              styleBtn="primary"
+              urlBtn="/whatwedo"
+            />
           </div>
         </div>
       </div>
@@ -74,6 +78,7 @@ function Home() {
               <img src={founder} alt="founder" />
             </div>
             <div className="founder-content-detail-right">
+              <span>Founder and CEO</span>
               <p>
                 Liberian refugee Elisha founded Envision Health Access
                 Initiative. He has over 10 years of global healthcare expertise
@@ -84,7 +89,11 @@ function Home() {
                 His passion project, started in 2018, provides important public
                 health services to those in need.
               </p>
-              <Button textInput="Learn more" styleBtn="primary" />
+              <Button
+                textInput="Meet the Team"
+                styleBtn="primary"
+                urlBtn="/aboutus"
+              />
             </div>
           </div>
         </div>

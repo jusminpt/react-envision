@@ -9,6 +9,10 @@
   --font-title3: 24px;
   --font-medium: 16px;
   --font-small: 12px;
+  --font-mobile-title: 36px;
+  --font-mobile-title2: 24px;
+  --font-mobile-title3: 20px;
+  --font-mobile-body: 16px;
 
   /* color */
   --color-blue: #2591c3;
@@ -38,4 +42,10 @@ body {
 }
 body {
   position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 36px;
+  }
 }

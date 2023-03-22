@@ -137,10 +137,93 @@
       width: 100%;
       margin-left: 20px;
 
+      span {
+        display: none;
+      }
+
       button {
         width: 30%;
         height: 40px;
         align-self: flex-end;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .home__video {
+    video {
+      height: 80vh;
+    }
+
+    &-content {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      &-text {
+        all: revert;
+        padding: 20px;
+        text-align: center;
+
+        p {
+          text-align: justify;
+          font-size: var(--font-mobile-body);
+        }
+
+        button {
+          position: relative;
+          height: 50px;
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .home__explore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(2, 2, 2, 0.3)),
+      url("../../assets/img/people\ with\ sticks.png");
+    align-items: center;
+
+    h3 {
+      font-size: var(--font-title2);
+    }
+
+    ul {
+      font-size: var(--font-mobile-title2);
+      text-align: center;
+    }
+    li {
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+    }
+  }
+
+  .founder-content {
+    margin-top: 50px;
+
+    &-detail {
+      display: flex;
+      flex-direction: column;
+      &-left {
+        margin-right: 0;
+      }
+      &-right {
+        margin: 20px 0 0 0;
+        span {
+          display: block;
+          color: var(--color-drak-blue);
+          font-size: var(--font-mobile-title3);
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+        button {
+          width: 50%;
+          align-self: center;
+          margin-top: 20px;
+        }
       }
     }
   }

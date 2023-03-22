@@ -5,6 +5,10 @@
   gap: 12px;
   border-radius: 5px;
   border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary {
