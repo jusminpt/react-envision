@@ -1,25 +1,27 @@
-.cardContainer {
-    background-position: center;
-    width: 400px; /* make the image container the full width of the card */
-    height: 200px; /* set the height of the image container */
+.card-container {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 40vh;
 }
 
-.cardContent {
-    padding: 30px;
-    box-shadow: 0 8px 8px -4px rgb(224, 224, 224);
-  }
-  
-  .imageContainer {
-    overflow: hidden; 
-    // border: solid green 5px;
-  }
-  
-  .projectImage {
-    width: 100%; /* make the image fill the entire image container */
-    height: 100%; /* make the image fill the entire image container */
-    object-fit: cover; /* make the image cover the entire container without distortion */
-  }
+.content {
+  color: white;
+  padding: 50px 30px;
+}
 
-  .btnContainer {
-    padding-top: 20px;
+.proj-header {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .card-container {
+     display: flex;
+     flex-direction: row;
   }
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
