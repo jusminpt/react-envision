@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { PageHero, ResourceCard } from "../../components";
 import bannerResources from "../../assets/img/banner-resources.png";
 import resourcesData from "../../data/resourcesData";
@@ -28,18 +29,11 @@ function Resources() {
         </p>
         <div className="resourcesCard-section">
           {/* TODO: find nested route solution */}
-          <ResourceCard
-            resourcesData={resourcesData[0]}
-            urlBtn="resources/hiv-covid-19"
-            img={covidPic}
-          />
-          <ResourceCard
-            resourcesData={resourcesData[1]}
-            urlBtn="resources/finanacial"
-            img={financialPic}
-          />
+          <ResourceCard resourcesData={resourcesData[0]} img={covidPic} />
+          <ResourceCard resourcesData={resourcesData[1]} img={financialPic} />
         </div>
       </div>
+      <Link to="resources/hiv-covid-19">Link</Link>
     </div>
   );
 }
