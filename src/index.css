@@ -5,14 +5,19 @@
   --font-base: "Inter", sans-serif;
   --font-default-size: 20px;
   --font-title: 48px;
+  --font-title2: 30px;
   --font-title3: 24px;
   --font-medium: 16px;
   --font-small: 12px;
+  --font-mobile-title: 36px;
+  --font-mobile-title2: 24px;
+  --font-mobile-title3: 20px;
+  --font-mobile-body: 16px;
 
   /* color */
   --color-blue: #2591c3;
   --color-drak-blue: #2774b1;
-  --color-dark-blue-2: #184568;
+  --color-dark-blue-2: #4c6477;
   --color-light-blue: #a5d8ec;
   --color-baby-blue: #f2f9ff;
   --color-black: #04080c;
@@ -37,4 +42,10 @@ body {
 }
 body {
   position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: var(--font-mobile-title);
+  }
 }

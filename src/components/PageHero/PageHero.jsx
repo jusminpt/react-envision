@@ -1,10 +1,14 @@
 import React from "react";
 import "./PageHero.scss";
-import img from "../../assets/Trial.jpg";
 
-function PageHero({ headingText }) {
+function PageHero({ headingText, img }) {
   return (
-    <div className="pagehero" style={{ backgroundImage: `url(${img})` }}>
+    <div
+      className="pagehero"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${img})`,
+      }}
+    >
       <h1>{headingText}</h1>
     </div>
   );
