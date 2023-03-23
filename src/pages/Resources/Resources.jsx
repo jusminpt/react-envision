@@ -2,6 +2,8 @@ import React from "react";
 import { PageHero, ResourceCard } from "../../components";
 import bannerResources from "../../assets/img/banner-resources.png";
 import resourcesData from "../../data/resourcesData";
+import covidPic from "../../assets/img/Rectangle-35.jpg";
+import financialPic from "../../assets/img/image-1.jpg";
 import "./Resources.scss";
 import "../Pages.scss";
 
@@ -25,9 +27,17 @@ function Resources() {
           diam quam, semper iaculis condimentum ac, vestibulum eu nisl.226226
         </p>
         <div className="resourcesCard-section">
-          {resourcesData.map((item) => (
-            <ResourceCard resourcesData={item} key={item.id} />
-          ))}
+          {/* TODO: find nested route solution */}
+          <ResourceCard
+            resourcesData={resourcesData[0]}
+            urlBtn="resources/hiv-covid-19"
+            img={covidPic}
+          />
+          <ResourceCard
+            resourcesData={resourcesData[1]}
+            urlBtn="resources/finanacial"
+            img={financialPic}
+          />
         </div>
       </div>
     </div>

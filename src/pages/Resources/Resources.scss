@@ -1,17 +1,11 @@
 .resourcesCard-section {
   display: flex;
-  margin-top: 50px;
-  height: 600px;
-
-  button {
-    width: 40%;
-  }
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 960px) {
   .resourcesCard-section {
+    margin-top: 50px;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
   }
 }
