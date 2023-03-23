@@ -2,92 +2,53 @@ import React from "react";
 import { PageHero } from "../../components";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./WhatWeDo.scss";
-// import "../Pages.scss";
 
-/* TODO: Might need to create a projectData.js to store info */
+//Project Card Images
+import image from "../../assets/proj-img.png"
+import imageTwo from "../../assets/proj-img02.png"
 
 function WhatWeDo() {
   return (
     <div className="container">
       <PageHero headingText="What We Do" />
       <div className="page-section">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          vulputate libero et velit interdum, ac aliquet odio mattis. Class
-          aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos. Curabitur tempus urna at turpis condimentum
-          lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis
-          condimentum ac, vestibulum eu nisl.226226Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-          ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
-          torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus
-          urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut
-          diam quam, semper iaculis condimentum ac, vestibulum eu nisl.226226
+
+        <p className="description">
+        Non-governmental organizations and civil society groups from the US, Liberia, Malawi, and Tanzania are providing essential public health services to underserved populations. Envision is working to prevent HIV/AIDS and malaria, enhance maternal and child health, and provide access to clean water and proper sanitation. Public health and access to healthcare are two areas that can benefit greatly from collaboration across institutions. Their efforts are especially important in areas where access to healthcare is hampered by factors such as low income and other social and economic factors. By working together, we are able to build communities and provide health benefits for everyone.
         </p>
 
-        <h1 className="title">Explore Projects in United States</h1>
+        <div className="projects">
 
-        <div className="projectGrid">
+          <div className="line"></div>
+          
+          {/* 1st Project Card */}
           <div className="card">
-            {/* Project Card element for 3x2 Grid */}
             <ProjectCard
-              projTitleInput="Title of Project"
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
-              style={{ paddingBottom: "30px", paddingTop: "30px" }}
+              imageChoice={image}
+              //Places text on LEFT or RIGHT side of container
+              textPosition="left"
+              headerText="The WASH Project"
+              pText="Girls are the breadwinners in impoverish communities, walking away from home to fetch water envision builds boreholes and hand pumps to provide clean and safe drinking water enabling woman and girls to have clean water close to their homes."
             />
           </div>
 
+          {/* 2nd Project Card */}
           <div className="card">
-            {/* Project Card element for 3x2 Grid */}
             <ProjectCard
-              projTitleInput="Title of Project"
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
-              style={{ paddingBottom: "30px", paddingTop: "30px" }}
+              imageChoice={imageTwo}
+              //Places text on LEFT or RIGHT side of container
+              textPosition="right"
+              headerText="Mother and Child Health Project"
+              pText="our work is not complete until pregnant woman living under $1 dollar per day receive readily accessible medical care to give birth in a skilled medical facility."
             />
           </div>
 
-          <div className="card">
-            {/* Project Card element for 3x2 Grid */}
-            <ProjectCard
-              projTitleInput="Title of Project"
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
-              style={{ paddingBottom: "30px", paddingTop: "30px" }}
-            />
-          </div>
+          <div className="line-2"></div>
+
         </div>
-
-        {/* Second H1 Title */}
-        <h1 className="title-2">Explore Projects in Liberia </h1>
-
-        <div className="projectGrid">
-          <div className="card">
-            {/* Project Card element for 3x2 Grid */}
-            <ProjectCard
-              projTitleInput="Title of Project"
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
-              style={{ paddingBottom: "30px", paddingTop: "30px" }}
-            />
-          </div>
-
-          <div className="card">
-            {/* Project Card element for 3x2 Grid */}
-            <ProjectCard
-              projTitleInput="Title of Project"
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
-              style={{ paddingBottom: "30px", paddingTop: "30px" }}
-            />
-          </div>
-
-          <div className="card">
-            {/* Project Card element for 3x2 Grid */}
-            <ProjectCard
-              projTitleInput="Title of Project"
-              paraInput="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero."
-              style={{ paddingBottom: "30px", paddingTop: "30px" }}
-            />
-          </div>
-        </div>
+   
       </div>
+
     </div>
   );
 }

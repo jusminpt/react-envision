@@ -28,7 +28,7 @@ function Navbar() {
       <nav className="app__navbar">
         <div className="app__navbar-logo">
           <Link to="/">
-            <img src={images.navLogo} className="" alt="logo" />
+            <img src={images.navLogo} className="" alt="This is the Enivision logo" />
           </Link>
           <p>Envision Health Access Initiative</p>
         </div>

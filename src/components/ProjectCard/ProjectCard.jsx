@@ -1,35 +1,38 @@
-import React from "react";
-import Button from "../Button/Button";
-import img from "../../assets/Trial.jpg";
+import React, { useState, useEffect } from "react";
 import "./ProjectCard.scss";
 
-function ProjectCard({  projTitleInput, paraInput, style }) {
+function ProjectCard({ imageChoice, textPosition, headerText, pText }) {
+  const [paddingStyle, setPaddingStyle] = useState({});
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 960) {
+        setPaddingStyle({});
+      } else {
+        setPaddingStyle(
+          textPosition === "left" ? { paddingLeft: "50%" } : { paddingRight: "50%" }
+        );
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [textPosition]);
+
   return (
-    //Created to allow individual space for each card in the Projects grid.
-    <div className="gridSpacing" style={style}>
-
-      <div className="cardContainer">
-            <div className="cardContent">
-
-            <h3>{projTitleInput}</h3>
-
-              <div className="imageContainer">
-                <img src={img} alt="" className="projectImage" />
-              </div>
-
-              <div className="paraContainer">
-                <p>{paraInput}</p>
-              </div>
-
-              <div className="btnContainer">
-                
-              <Button textInput="Learn More" />
-
-              </div>
-            </div>
+    <div className="main">
+      <div className="card-container" style={{ backgroundImage: `url(${imageChoice})`, ...paddingStyle }}>
+        <div className="content" style={paddingStyle}>
+          <h1 className="proj-header">{headerText}</h1>
+          <p className="proj-p cutoff-text">{pText}</p>
+        </div>
       </div>
     </div>
-    
   );
 }
 
