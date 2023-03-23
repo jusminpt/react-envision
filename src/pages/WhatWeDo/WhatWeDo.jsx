@@ -3,6 +3,8 @@ import { PageHero } from "../../components";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./WhatWeDo.scss";
 
+//Header Image
+import bannerImg from "../../assets/img/image-9.png";
 //Project Card Images
 import image from "../../assets/proj-img.png"
 import imageTwo from "../../assets/proj-img02.png"
@@ -10,7 +12,7 @@ import imageTwo from "../../assets/proj-img02.png"
 function WhatWeDo() {
   return (
     <div className="container">
-      <PageHero headingText="What We Do" />
+      <PageHero headingText="What We Do" img={bannerImg} />
       <div className="page-section">
 
         <p className="description">
