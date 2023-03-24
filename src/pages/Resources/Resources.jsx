@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { PageHero, ResourceCard } from "../../components";
 import bannerResources from "../../assets/img/banner-resources.png";
 import resourcesData from "../../data/resourcesData";
@@ -33,7 +32,6 @@ function Resources() {
           <ResourceCard resourcesData={resourcesData[1]} img={financialPic} />
         </div>
       </div>
-      <Link to="resources/hiv-covid-19">Link</Link>
     </div>
   );
 }
