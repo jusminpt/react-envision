@@ -1,10 +1,13 @@
 .teamcard-container {
-  height: 45vh;
-  width: 28%;
+  height: 65vh;
+  width: 23vw;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   color: var(--color-white);
   background-color: rgb(195, 235, 222);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -19,7 +22,7 @@
 .teamcard-footer {
   p {
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .social {
@@ -46,6 +49,8 @@
 
 @media screen and (max-width: 960px) {
   .teamcard-container {
+    margin: 10px 0;
+    height: 50vh;
     width: 100%;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import "./TeamCard.scss";
 import {
@@ -8,17 +8,19 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
-function TeamCard() {
+function TeamCard({ teamData: { img, name, position, description } }) {
   return (
     <div
       className="teamcard-container"
-      //   style={{ backgroundImage: `url(${})` }}
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${img})`,
+      }}
     >
       <div className="teamcard-header">
-        <h4>Name</h4>
+        <h4>{name}</h4>
       </div>
       <div className="teamcard-footer">
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>{position}</p>
         <div className="social">
           <AiOutlineTwitter className="social-icon" />
           <AiFillInstagram className="social-icon" />
@@ -35,9 +37,7 @@ function TeamCard() {
         }}
         className="teamcard-hover"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu
-        quam, iaculis sed nulla eu, tincidunt lobortis nunc. Praesent euismod
-        maximus mauris in auctor.
+        <p>{description}</p>
       </motion.div>
     </div>
   );
