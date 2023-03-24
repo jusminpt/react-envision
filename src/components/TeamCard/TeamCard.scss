@@ -24,12 +24,12 @@
     font-weight: 600;
     margin-bottom: 15px;
   }
+}
 
-  .social {
-    &-icon {
-      width: 0.8em;
-      margin-right: 5px;
-    }
+.social {
+  &-icon {
+    width: 0.8em;
+    margin-right: 5px;
   }
 }
 
@@ -40,11 +40,26 @@
   left: 0;
   bottom: 0;
   right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   padding: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: var(--font-small);
+
+  .social {
+    &-icon {
+      font-size: var(--font-default-size);
+      width: 0.8em;
+      margin-right: 5px;
+
+      &:hover {
+        color: var(--color-light-blue);
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 960px) {

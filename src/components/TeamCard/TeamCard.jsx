@@ -38,6 +38,12 @@ function TeamCard({ teamData: { img, name, position, description } }) {
         className="teamcard-hover"
       >
         <p>{description}</p>
+        <div className="social">
+          <AiOutlineTwitter className="social-icon" />
+          <AiFillInstagram className="social-icon" />
+          <AiFillFacebook className="social-icon" />
+          <AiFillLinkedin className="social-icon" />
+        </div>
       </motion.div>
     </div>
   );
