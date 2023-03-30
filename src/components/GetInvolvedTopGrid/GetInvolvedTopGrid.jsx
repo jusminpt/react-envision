@@ -4,15 +4,6 @@ import Button from "../Button/Button";
 
 import housesImg from "../../assets/img/image 8.png";
 
-
-
-
-
-
-
-
-
-
 function TopGrid ({}) {
 
   return (

@@ -6,7 +6,7 @@ function ProjectCard({ imageChoice, textPosition, headerText, pText }) {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 960) {
+      if (window.innerWidth <= 1280) {
         setPaddingStyle({});
       } else {
         setPaddingStyle(
@@ -27,7 +27,8 @@ function ProjectCard({ imageChoice, textPosition, headerText, pText }) {
   return (
     <div className="main">
       <div className="card-container" style={{ backgroundImage: `url(${imageChoice})`, ...paddingStyle }}>
-        <div className="content" style={paddingStyle}>
+        {/* WhatWeDo Content */}
+        <div className="wwd-content" style={paddingStyle}>
           <h1 className="proj-header">{headerText}</h1>
           <p className="proj-p cutoff-text">{pText}</p>
         </div>

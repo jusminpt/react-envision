@@ -1,0 +1,73 @@
+.gi-flexCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 269px;  
+    // border: red solid 2px;
+    // width: fit-content;
+
+    width: 100%;
+
+
+}
+
+.gi-content {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    color: var(--color-black);
+    background: white;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+//more people more impact
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+    border-left: 2px solid black;
+    height: 150px;
+}
+
+.content-item {
+    // border: green solid 3px;
+    display: flex;
+ 
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+//starts work @ smaller than 1280px
+@media screen and (max-width: 1280px) {
+    .gi-flexCard {
+        height: 400px;
+      
+    }
+    // .content {
+    //     color: red;
+    //     flex-direction: column;
+    // }
+
+    .two {
+        display: none;
+    }
+    .line {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid green;
+        margin: 1em 0;
+        padding: 0;
+
+    }
+  }

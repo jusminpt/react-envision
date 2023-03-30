@@ -1,11 +1,12 @@
 .main-container {
     margin: 100px 166px;
-   
 }
+
+// .involved-title
 
 //fix content ?? 
 .top-grid {
-    border: solid yellow 5px;
+    // border: solid yellow 5px;
   // width: fit-content;
   
     display: flex;
@@ -15,5 +16,15 @@
 }
  
 .involved-title {
-  color: black;
+  color: var(--color-black);
+}
+
+//top paragraph
+.involved-p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.middle-card {
+  padding: 150px 0;
 }
