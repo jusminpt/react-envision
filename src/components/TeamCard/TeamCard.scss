@@ -1,10 +1,13 @@
 .teamcard-container {
-  height: 45vh;
-  width: 28%;
+  height: 65vh;
+  width: 23vw;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   color: var(--color-white);
   background-color: rgb(195, 235, 222);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -19,14 +22,14 @@
 .teamcard-footer {
   p {
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
+}
 
-  .social {
-    &-icon {
-      width: 0.8em;
-      margin-right: 5px;
-    }
+.social {
+  &-icon {
+    width: 0.8em;
+    margin-right: 5px;
   }
 }
 
@@ -37,15 +40,32 @@
   left: 0;
   bottom: 0;
   right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   padding: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: var(--font-small);
+
+  .social {
+    &-icon {
+      font-size: var(--font-default-size);
+      width: 0.8em;
+      margin-right: 5px;
+
+      &:hover {
+        color: var(--color-light-blue);
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 960px) {
   .teamcard-container {
+    margin: 10px 0;
+    height: 50vh;
     width: 100%;
   }
 }

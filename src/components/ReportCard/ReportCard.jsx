@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./ReportCard.scss";
-import img from "../../assets/Trial.jpg";
 
 function ReportCard({ textInput, textBtn, urlBtn }) {
   return (

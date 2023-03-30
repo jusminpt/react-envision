@@ -5,6 +5,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import "./Button.scss";
 
 function Button({ textInput, styleBtn, urlBtn }) {
+  console.log(urlBtn);
   const navigation = useNavigate();
   const btnHandler = () => {
     if (urlBtn.includes("https")) {
