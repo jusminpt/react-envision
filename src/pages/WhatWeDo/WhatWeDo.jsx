@@ -15,12 +15,12 @@ function WhatWeDo() {
       <PageHero headingText="What We Do" img={bannerImg} />
       <div className="page-section">
 
-        <p className="description">
+        <p className="description-p">
         Non-governmental organizations and civil society groups from the US, Liberia, Malawi, and Tanzania are providing essential public health services to underserved populations. Envision is working to prevent HIV/AIDS and malaria, enhance maternal and child health, and provide access to clean water and proper sanitation. Public health and access to healthcare are two areas that can benefit greatly from collaboration across institutions. Their efforts are especially important in areas where access to healthcare is hampered by factors such as low income and other social and economic factors. By working together, we are able to build communities and provide health benefits for everyone.
         </p>
 
         <div className="projects">
-
+          <h1 className="wwd-title">Liberia</h1>
           <div className="line"></div>
           
           {/* 1st Project Card */}
@@ -44,6 +44,39 @@ function WhatWeDo() {
               pText="our work is not complete until pregnant woman living under $1 dollar per day receive readily accessible medical care to give birth in a skilled medical facility."
             />
           </div>
+
+          <h1 className="wwd-title">Tanzania</h1>
+          <div className="line"></div>
+
+          
+          {/* 3rd Project Card */}
+          <div className="card">
+            <ProjectCard
+              imageChoice={imageTwo}
+              //Places text on LEFT or RIGHT side of container
+              textPosition="left"
+              headerText="Meeting at Ministry of Health"
+              pText="It focuses on raising awareness and promoting various health initiatives pertaining to Maternal and Child Health in Greater Monrovia's slum communities."
+            />
+          </div>
+
+            {/* 4th Project Card */}
+            <div className="card">
+            <ProjectCard
+              imageChoice={imageTwo}
+              //Places text on LEFT or RIGHT side of container
+              textPosition="right"
+              headerText="Empowering Young People for Social Change"
+              pText="EHAI collaborated with Tanzania Youth Espouse for Gender and Development (TYEGD). A youth non-governmental and non-profit organization evolved from a collective critical reflection on gender relations, human rights, and the role of young people in bringing about social change in the community via their collective efforts."
+            />
+          </div>
+
+
+
+
+
+
+
 
           <div className="line-2"></div>
 

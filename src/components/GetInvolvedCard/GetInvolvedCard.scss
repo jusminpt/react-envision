@@ -1,0 +1,59 @@
+.getInvolvedCard {
+    // background-size: cover;
+    // background-position: center;
+   
+    background-color: var(--color-drak-blue);
+    padding: 24px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    // height: 30vh;
+    // border-radius: 5px;
+  
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  
+    .gi-card-title {
+      font-size: var(--font-title2);
+      color: var(--color-white);
+      width: 30%;
+    }
+
+    button {
+      width: fit-content;
+    }
+  }
+
+  .getInvolvedCard-left {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  @media screen and (max-width: 960px) {
+    .getInvolvedCard {
+      text-align: center;
+      height: 30vh;
+  
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+  
+      h3 {
+        font-size: var(--font-mobile-title3);
+      }
+  
+      button {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+      }
+      .gi-card-title {
+        width: 100%;
+        font-size: var(--font-title3);
+      }
+    }
+  }
+  
