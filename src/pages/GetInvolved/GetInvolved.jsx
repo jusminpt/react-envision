@@ -1,8 +1,8 @@
 import React from "react";
 import { PageHero } from "../../components";
-import TopGrid from "../../components/GetInvolvedTopGrid/GetInvolvedTopGrid.jsx";
 import './GetInvolved.scss';
 
+import TopGrid from "../../components/GetInvolvedTopGrid/GetInvolvedTopGrid.jsx";
 import GetInvolvedCard from "../../components/GetInvolvedCard/GetInvolvedCard";
 import GetInvolvedFlexCard from "../../components/GetInvolvedFlexCard/GetInvolvedFlexCard";
 

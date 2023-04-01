@@ -2,21 +2,17 @@
     margin: 100px 166px;
 }
 
-// .involved-title
-
-//fix content ?? 
 .top-grid {
-    // border: solid yellow 5px;
-  // width: fit-content;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  // border: solid yellow 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     
 }
  
 .involved-title {
   color: var(--color-black);
+  font-size: var(--font-title);
 }
 
 //top paragraph
@@ -28,3 +24,8 @@
 .middle-card {
   padding: 150px 0;
 }
+
+// .end-card {
+//   border: blue 4px solid;
+  
+// }

@@ -5,10 +5,8 @@ import "./GetInvolvedCard.scss";
 
 function GetInvolvedCard({ textInput, textBtn, urlBtn }) {
   return (
-    // TODO: Style, rename, add info
-    // <div className="reportCard" style={{ backgroundImage: `url(${img})` }}>
     <div className="getInvolvedCard">
-      <h3>{textInput}</h3>
+      <h2 className="gi-card-title">{textInput}</h2>
       <div className="getInvolvedCard-left">
         <Button textInput={textBtn} styleBtn="secondary" urlBtn={urlBtn} />
       </div>

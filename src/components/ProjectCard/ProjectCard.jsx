@@ -10,7 +10,7 @@ function ProjectCard({ imageChoice, textPosition, headerText, pText }) {
         setPaddingStyle({});
       } else {
         setPaddingStyle(
-          textPosition === "left" ? { paddingLeft: "50%" } : { paddingRight: "50%" }
+          textPosition === "left" ? { paddingLeft: "30%" } : { paddingRight: "30%" }
         );
       }
     };

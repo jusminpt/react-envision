@@ -14,24 +14,18 @@
   width: fit-content;
   max-height: 95%; 
   overflow: auto;
-  // font-size: 1.2rem; 
-  // line-height: 1.5; 
 }
 
 .proj-header {
- 
+  font-size: var(--font-title);
   padding-bottom: 60px;
-  // font-size: 1.2rem; /* default font size */
-  // font-size: calc(1.2rem * 2); /* increase font size by 20% */
-    font-size: 50px; /* default font size */
+  // font-size: 60px; 
 }
 
 .proj-p {
-  // max-width: 400px; 
   word-wrap: break-word; 
-  // font-size: 1.4rem; /* increase the font size by 40% */
- 
-font-size: 2rem; /* increase the font size by 40% */
+  // font-size: 2rem; 
+  font-size: var(--font-title2);
 
 }
 
@@ -49,120 +43,13 @@ font-size: 2rem; /* increase the font size by 40% */
     align-items: center;
   }
   .proj-header {
-    font-size: 3.2rem;
+    // font-size: 3.8rem;
     padding-bottom: 20px;
     text-align: center;
   }
   .proj-p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.5;
-    color: red;
+    // color: red;
   }
-  
 }
-
-// @media screen and (max-width: 960px) {
-//   .card-container {
-//      display: flex;
-//      flex-direction: row;
-//   }
-//   .wwd-content {
-//     margin: auto;
-//     display: flex;
-//     flex-direction: column;
-//     text-align: center;
-//     align-items: center;
-//   }
-//   .proj-header {
-//     font-size: 3.2rem;
-//     padding-bottom: 20px;
-//     text-align: center;
-//   }
-//   .proj-p {
-//     font-size: 3.2rem;
-//     line-height: 1.5;
-//     color: green;
-//   }
-  
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // .main {
-// //    height: 600px;
-// // }
-
-// .card-container {
-//   width: 100%;
-//   background-repeat: no-repeat;
-//   // height: 40vh;
-//   background-size: cover;
-//   min-height: 600px;
-
- 
-
-  
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-
-// }
-
-// .content {
-  
-//   // color: white;
-//   // padding: 50px 30px;
-//   // max-width: 100%;
-
-//   color: white;
-  
-//   padding: 50px 30px;
-//   width: fit-content;
-//   max-height: 95%; 
-//   // overflow: hidden; 
-
-// }
-
-// .proj-header {
-//   padding-bottom: 20px;
-  
-// }
-
-// .proj-p {
-//   word-wrap: break-word;
-
-//   font-size: 1.2rem; /* increase the font size */
-//   line-height: 1.5; /* add some spacing between lines */
-  
-// }
-
-// @media screen and (max-width: 960px) {
-//   .card-container {
-//      display: flex;
-//      flex-direction: row;
-     
-//   }
-//   .content {
-//     margin: auto;
-//     display: flex;
-//     flex-direction: column;
-//     text-align: center;
-//     align-items: center;
-
-
-//   }
-// }

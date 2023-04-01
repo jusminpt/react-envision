@@ -8,18 +8,19 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 30vh;
+    // height: 30vh;
     // border-radius: 5px;
   
     &:not(:last-child) {
       margin-bottom: 30px;
     }
   
-    h3 {
-      font-size: var(--font-title3);
+    .gi-card-title {
+      font-size: var(--font-title2);
       color: var(--color-white);
+      width: 30%;
     }
-  
+
     button {
       width: fit-content;
     }
@@ -30,11 +31,11 @@
     justify-content: flex-end;
   }
   
-  // TODO: need to get the final design for mobile version
+  
   @media screen and (max-width: 960px) {
     .getInvolvedCard {
       text-align: center;
-      height: 25vh;
+      height: 30vh;
   
       &:not(:last-child) {
         margin-bottom: 30px;
@@ -48,6 +49,10 @@
         margin-top: 20px;
         width: 100%;
         font-size: 12px;
+      }
+      .gi-card-title {
+        width: 100%;
+        font-size: var(--font-title3);
       }
     }
   }
