@@ -10,8 +10,6 @@ import {
   AboutUs,
   HIVCovid19,
   FinancialReport,
-  Volunteer,
-  VolunteerSuccess,
 } from "./pages";
 import "./App.scss";
 
@@ -33,11 +31,11 @@ function App() {
               element={<FinancialReport />}
             />
             <Route path="getinvolved" element={<GetInvolved />} />
-            <Route path="getinvolved/volunteer" element={<Volunteer />} />
+            {/* <Route path="getinvolved/volunteer" element={<Volunteer />} />
             <Route
               path="getinvolved/volunteer/success"
               element={<VolunteerSuccess />}
-            />
+            /> */}
             <Route path="aboutus" element={<AboutUs />} />
             <Route path="*" element={"Page not founded 404"} />
           </Routes>

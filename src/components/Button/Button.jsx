@@ -9,7 +9,7 @@ function Button({ textInput, styleBtn, urlBtn }) {
   const navigation = useNavigate();
   const btnHandler = () => {
     if (urlBtn.includes("https")) {
-      window.open(`${urlBtn}`, "_blank");
+      window.open(`${urlBtn}`, "_blank", "noreferrer");
     } else {
       navigation(urlBtn);
     }

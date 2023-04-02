@@ -4,6 +4,24 @@ import bannerFinancial from "../../assets/img/banner-financial.png";
 import "../Pages.scss";
 
 function FinancialReport() {
+  const reportYear = [
+    {
+      year: 2019,
+      urlBtn:
+        "https://drive.google.com/file/d/1DpBYsnqZcao0Gc3zxXu1IJE5dvT_aqpI/view?usp=share_link",
+    },
+    {
+      year: 2020,
+      urlBtn:
+        "https://drive.google.com/file/d/12EhAwGiw9iQM4BKkb7Rpw00ZwHOnImyc/view?usp=share_link",
+    },
+    {
+      year: 2022,
+      urlBtn:
+        "https://drive.google.com/file/d/1AdQ_jtiipXzrr8dsIMX2FJ5NSoOjwnMF/view?usp=share_link",
+    },
+  ];
+
   return (
     <div>
       <PageHero headingText="Financial Report" img={bannerFinancial} />
@@ -21,22 +39,13 @@ function FinancialReport() {
           stakeholders while also advancing the cause of justice and equity.
         </p>
         <div className="card-section">
-          {/* TODO: Wait for report */}
-          <ReportCard
-            textInput="Financial reports for 2022"
-            textBtn="See Document"
-            urlBtn="/"
-          />
-          <ReportCard
-            textInput="Financial reports for 2022"
-            textBtn="See Document"
-            urlBtn="/"
-          />
-          <ReportCard
-            textInput="Financial reports for 2022"
-            textBtn="See Document"
-            urlBtn="/"
-          />
+          {reportYear.map((item) => (
+            <ReportCard
+              textInput={`Financial reports for ${item.year}`}
+              textBtn="See Document"
+              urlBtn={item.urlBtn}
+            />
+          ))}
         </div>
       </div>
     </div>
