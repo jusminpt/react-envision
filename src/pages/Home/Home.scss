@@ -175,6 +175,7 @@
 
         button {
           position: relative;
+          margin: 0 auto;
           height: 50px;
           width: 50%;
         }
@@ -220,7 +221,7 @@
           margin-bottom: 20px;
         }
         button {
-          width: 50%;
+          width: fit-content;
           align-self: center;
           margin-top: 20px;
         }
