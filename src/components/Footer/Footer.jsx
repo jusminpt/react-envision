@@ -67,8 +67,9 @@ function Footer() {
               <h3>Talk to Us</h3>
               <ul>
                 <li>
-                  655 Morris Avenue STE 2 <br />
-                  The Bronx NY 10451 US
+                  511 N Reilly Rd Ste A108
+                  <br />
+                  Fayetteville, NC 28303-2440
                 </li>
                 <li>Tel 646-589-2589</li>
               </ul>
