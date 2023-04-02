@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as arrowRight } from "../../assets/arrow-right.svg";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import "./Button.scss";
 
@@ -18,7 +17,9 @@ function Button({ textInput, styleBtn, urlBtn }) {
   return (
     <button className={`btn ${styleBtn}`} onClick={btnHandler}>
       {textInput}
-      {!urlBtn.includes("https") ? <HiOutlineArrowLongRight size={25} /> : null}
+      {!textInput.includes("Donate") ? (
+        <HiOutlineArrowLongRight size={25} />
+      ) : null}
     </button>
   );
 }

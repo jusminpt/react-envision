@@ -41,6 +41,7 @@ function FinancialReport() {
         <div className="card-section">
           {reportYear.map((item) => (
             <ReportCard
+              key={item.year}
               textInput={`Financial reports for ${item.year}`}
               textBtn="See Document"
               urlBtn={item.urlBtn}
