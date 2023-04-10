@@ -6,7 +6,7 @@ import "./GetInvolvedCard.scss";
 function GetInvolvedCard({ textInput, textBtn, urlBtn }) {
   return (
     <div className="getInvolvedCard">
-      <h2 className="gi-card-title">{textInput}</h2>
+      <h3 className="gi-card-title">{textInput}</h3>
       <div className="getInvolvedCard-left">
         <Button textInput={textBtn} styleBtn="secondary" urlBtn={urlBtn} />
       </div>

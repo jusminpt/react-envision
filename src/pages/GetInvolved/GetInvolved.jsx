@@ -13,14 +13,14 @@ function GetInvolved() {
     <div>
       <PageHero headingText="Get Involved"  img={bannerImg} />
 
-      <div className="main-container">
+      <div className="page-section">
         
-        <h1 className="involved-title">Ways to Support Us</h1>
+        <h2 className="involved-title">Ways to Support Us</h2>
         <p className="involved-p">Your contribution will significantly improve the lives of the people in Liberia, Malawi, and Tanzania by providing them access to education, healthcare, and sustainable development initiatives. Additionally, you can also consider volunteering your time and skills to support Envision's initiatives and make a positive difference in the world.</p>
 
-        <div className="top-grid">
+       <div className="top-grid">
           < TopGrid />
-        </div>
+        </div> 
 
         <div className="middle-card">
           < GetInvolvedCard
@@ -28,9 +28,9 @@ function GetInvolved() {
               textBtn="See Document"
               urlBtn="/"
             />
-        </div>
+        </div> 
 
-        <div className="end-card">
+         <div className="end-card">
           < GetInvolvedFlexCard
             textInputOne="More People"
             textInputTwo="More Impact"
@@ -38,7 +38,7 @@ function GetInvolved() {
             textBtn="Join Us"
             urlBtn="/"
           />
-        </div>
+        </div> 
 
       </div>
     

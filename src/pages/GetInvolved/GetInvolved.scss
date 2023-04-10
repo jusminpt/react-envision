@@ -1,31 +1,23 @@
-.main-container {
-    margin: 100px 166px;
+.involved-p,
+.top-grid,
+.middle-card,
+.end-card
+ {
+    margin: 50px 0;
 }
 
-.top-grid {
-  // border: solid yellow 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    
-}
- 
-.involved-title {
-  color: var(--color-black);
-  font-size: var(--font-title);
-}
 
-//top paragraph
-.involved-p {
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
 
-.middle-card {
-  padding: 150px 0;
-}
-
-// .end-card {
-//   border: blue 4px solid;
+// .top-grid {
   
+//   border: solid yellow 5px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+    
+// }
+ 
+// .involved-title {
+//   color: var(--color-black);
+//   font-size: var(--font-title);
 // }

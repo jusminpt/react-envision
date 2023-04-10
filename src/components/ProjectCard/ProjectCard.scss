@@ -1,8 +1,11 @@
+.main {
+}
+
 .card-container {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
+  height: 45vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +13,7 @@
 
 .wwd-content {
   color: white;
-  padding: 50px 30px;
+  padding: 0px 30px;
   width: fit-content;
   max-height: 95%; 
   overflow: auto;
@@ -18,15 +21,11 @@
 
 .proj-header {
   font-size: var(--font-title);
-  padding-bottom: 60px;
-  // font-size: 60px; 
+  padding-bottom: 20px;
 }
 
 .proj-p {
-  word-wrap: break-word; 
-  // font-size: 2rem; 
-  font-size: var(--font-title2);
-
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 1280px) {
@@ -47,9 +46,18 @@
     padding-bottom: 20px;
     text-align: center;
   }
-  .proj-p {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    // color: red;
+  // .proj-p {
+  //   font-size: 1.8rem;
+  //   line-height: 1.5;
+  //   // color: red;
+  // }
+}
+
+@media screen and (max-width: 960px) {
+  .card-container {
+     display: flex;
+     flex-direction:row;
+     //MUST USE THIS FOR RESET PADDING FOR MOBILE SCREENS!!!!
+     padding: 0 0px;
   }
 }

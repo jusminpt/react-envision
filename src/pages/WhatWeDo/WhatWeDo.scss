@@ -1,6 +1,11 @@
-//Sets spacing betweeen each new card added
-.card {
-    padding: 30px 0;
+.card,
+.projects
+ {
+    margin: 50px 0;
+
+  
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .wwd-title {
@@ -8,20 +13,9 @@
   font-size: var(--font-title);
 }
 
-.description-p {
-  padding-bottom: 70px;
-}
-
 //top line
 .line {
     height: 2px;
     background: black;
     margin: 10px 0;
-
-  }
-
-//bottom line
-  .line-2 {
-    height: 2px;
-    background: black;
   }

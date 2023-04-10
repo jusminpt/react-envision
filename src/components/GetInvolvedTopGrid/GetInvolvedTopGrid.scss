@@ -1,17 +1,7 @@
 .image-container {
-  // display: flex;
-  // position: relative;
-  // border: 2px solid blue;
   height: 660px;
- 
-  // width: 100%;
-  // justify-content: center;
-  // overflow: hidden;
-
-
   display: flex;
   position: relative;
-  // border: 2px solid blue;
   width: 100%;
   justify-content: center;
   overflow: hidden;
@@ -24,8 +14,6 @@
   width: 70%;
   height: 100%;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   color: white;
   font-size: 2em;
   text-shadow: 1px 1px black;
@@ -35,12 +23,6 @@
   }
 
   img {
-    // flex: 1;
-    // object-fit: cover; 
-
-    // width: 80%;
-    // height: auto;
-
     max-width: 100%;
     height: auto;
     flex: 1;
@@ -69,139 +51,3 @@
   .right-img {
     width: 100%;
   }
-
-
-
-  // OLD GRID
-//.......................................
-  
-// .image-grid-container {
-//   // border: 5px solid yellow;
-//   display: flex;
-//   border: 2px solid blue;
-//   // margin: 0 auto;
-//   width: 100%;
-//   justify-content: center;
-//   position: relative;
-// }
-
-// .img-container {
-//   position: relative;
-// }
-
-// .title {
-//   position: absolute;
-//   z-index: 1;
-//   color: blue;
-//   width: 70%;
-//   // padding: 20px;
-//   box-sizing: border-box;
-
-//  margin-top: 50px;
-// margin-right: 330px;
-
-// font-size: (var(--font-title))
-// }
-
-
-// .test {
-//   z-index: 20;
-//   position: absolute;
-//   padding-left: 20px;
-  
-
-
-// }
-
-
-// // start @ higher than 1920px
-// // @media screen and (min-width: 1920px) {
-// //   .title {
-// //     // font-size: 45px;
-// //   }
-// // }
-
-// //starts work @ smaller than 1280px
-// @media screen and (max-width: 1280px) {
-//   .title {
-//     font-size: (var(--font-title2));
-//     color: red;
-
-//     margin-right: 330px;
-   
-//   }
-// }
-
-// //starts work @ smaller than 960px
-// @media screen and (max-width: 960px) {
-//   .title {
-//     font-size: (var(--font-title3));
-//     color: green;
-//     margin-right: 0px;
-//   }
-// }
-
-
-
-
-
-
-
-// .btn-container {
-//   position: absolute;
-//   top: 60%;
-//   left: 4%;
-  
-// }
-
-
-
-
-// .image-grid-left {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   position: relative;
-//   transform: translateY(10%);
-//   width: 100%;
-// }
-
-// //width greater than 1920px
-// // @media screen and (min-width: 1920px) {
-// //   .image-grid-left {
-// //     // width: 40%; 
-// //   }
-// // }
-
-// .image-grid-left img {
-//   opacity: 85%;
-//   width: 100%;
-//   height: 80%;
-//   // padding: 50px 0;
-// }
-
-// .image-grid-left button {
-//   margin-top: 1em;
-//   // width: 100%;
-//   max-width: 100%;
-// }
-
-// //tweakign image sizes
-// .image-grid-right {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   width: 100%;
-//   // padding: 0em;
-//   background-color: #f1f1f1;
-// }
-
-// .image-grid-right h2 {
-//   margin-top: 0;
-//   margin-bottom: 1em;
-// }
-
-// .image-grid-right img {
-//   opacity: 85%;
-//   width: 100%;
-// }
