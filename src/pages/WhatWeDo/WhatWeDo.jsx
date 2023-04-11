@@ -20,7 +20,7 @@ function WhatWeDo() {
         </p>
 
         <div className="projects">
-          <h1 className="wwd-title">Liberia</h1>
+          <h2 className="wwd-title">Liberia</h2>
           <div className="line"></div>
           
           {/* 1st Project Card */}
@@ -45,10 +45,11 @@ function WhatWeDo() {
             />
           </div>
 
-          <h1 className="wwd-title">Tanzania</h1>
+          {/* New Section for Tanzania Projects */}
+          {/* --------------------------------------------- */}
+          <h2 className="wwd-title">Tanzania</h2>
           <div className="line"></div>
 
-          
           {/* 3rd Project Card */}
           <div className="card">
             <ProjectCard
@@ -71,17 +72,8 @@ function WhatWeDo() {
             />
           </div>
 
-
-
-
-
-
-
-
-          <div className="line-2"></div>
-
         </div>
-   
+        
       </div>
 
     </div>

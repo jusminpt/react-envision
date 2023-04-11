@@ -1,22 +1,20 @@
 .getInvolvedCard {
     // background-size: cover;
     // background-position: center;
-   
     background-color: var(--color-drak-blue);
     padding: 24px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    // height: 30vh;
-    // border-radius: 5px;
-  
+    height: 30vh;
+
     &:not(:last-child) {
       margin-bottom: 30px;
     }
   
     .gi-card-title {
-      font-size: var(--font-title2);
+      // font-size: var(--font-title2);
       color: var(--color-white);
       width: 30%;
     }
@@ -31,11 +29,11 @@
     justify-content: flex-end;
   }
   
-  
   @media screen and (max-width: 960px) {
     .getInvolvedCard {
       text-align: center;
-      height: 30vh;
+      height: 50vh;
+      // padding: 80px 50px;
   
       &:not(:last-child) {
         margin-bottom: 30px;
@@ -56,4 +54,3 @@
       }
     }
   }
-  

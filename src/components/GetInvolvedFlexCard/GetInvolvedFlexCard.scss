@@ -28,7 +28,6 @@
 .one {
     display: flex;
     flex-direction: column;
-    font-size: var(--font-title2);
 }
 
 .line-flexCard-vertical {
@@ -43,7 +42,7 @@
 
 .three {
     font-size: var(--font-medium);
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .content-item {
@@ -58,7 +57,6 @@
     }
 
     .gi-content {
-        
         flex-direction: column;
        justify-content: center;
        align-items: center;

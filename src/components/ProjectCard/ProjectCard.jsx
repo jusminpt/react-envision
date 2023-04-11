@@ -29,7 +29,7 @@ function ProjectCard({ imageChoice, textPosition, headerText, pText }) {
       <div className="card-container" style={{ backgroundImage: `url(${imageChoice})`, ...paddingStyle }}>
         {/* WhatWeDo Content */}
         <div className="wwd-content" style={paddingStyle}>
-          <h1 className="proj-header">{headerText}</h1>
+          <h2 className="proj-header">{headerText}</h2>
           <p className="proj-p cutoff-text">{pText}</p>
         </div>
       </div>
