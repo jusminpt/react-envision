@@ -49,7 +49,7 @@ function Home() {
           <hr />
           <ul>
             <li>
-              <Link to="/whatwedo">United States</Link>
+              <Link to="/whatwedo">Tanzania</Link>
             </li>
             <li>
               <Link to="/whatwedo">Liberia</Link>
