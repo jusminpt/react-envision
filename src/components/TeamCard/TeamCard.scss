@@ -4,7 +4,6 @@
   padding: 20px;
   margin: 20px;
   color: var(--color-white);
-  background-color: rgb(195, 235, 222);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +32,7 @@
   }
 }
 
-.teamcard-hover {
+.teamcard__hover {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -47,7 +46,11 @@
   padding: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: var(--font-small);
+
+  &-description {
+    font-size: var(--font-medium);
+    font-weight: 400;
+  }
 
   .social {
     &-icon {
@@ -67,5 +70,11 @@
     margin: 10px 0;
     height: 50vh;
     width: 100%;
+  }
+
+  .teamcard__hover {
+    &-description {
+      font-size: var(--font-small) !important;
+    }
   }
 }

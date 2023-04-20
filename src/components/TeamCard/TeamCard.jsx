@@ -29,15 +29,15 @@ function TeamCard({ teamData: { img, name, position, description } }) {
         </div>
       </div>
       <motion.div
-        whileHover={{ opacity: [0, 1] }}
+        whileHover={{ opacity: [0, 1], fontSize: "6px" }}
         transition={{
           duration: 0.25,
           ease: "easeInOut",
           staggerChildren: 0.5,
         }}
-        className="teamcard-hover"
+        className="teamcard__hover"
       >
-        <p>{description}</p>
+        <p className="teamcard__hover-description">{description}</p>
         <div className="social">
           <AiOutlineTwitter className="social-icon" />
           <AiFillInstagram className="social-icon" />
