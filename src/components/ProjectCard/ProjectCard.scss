@@ -1,63 +1,59 @@
-.main {
-}
-
-.card-container {
+.projectCard__container {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh;
+  background-position: center;
+  height: 50vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
 }
 
-.wwd-content {
-  color: white;
-  padding: 0px 30px;
-  width: fit-content;
-  max-height: 95%; 
-  overflow: auto;
+.left {
+  justify-content: flex-end;
+}
+.rigth {
+  justify-content: flex-start;
 }
 
-.proj-header {
-  font-size: var(--font-title);
-  padding-bottom: 20px;
-}
+.projectCard__content {
+  width: 40%;
+  color: var(--color-white);
 
-.proj-p {
-  word-wrap: break-word;
-}
-
-@media screen and (max-width: 1280px) {
-  .card-container {
-     display: flex;
-     flex-direction: row;
-    padding: 0 100px;
-  }
-  .wwd-content {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
   .proj-header {
-    // font-size: 3.8rem;
-    padding-bottom: 20px;
-    text-align: center;
+    color: var(--color-white);
+    margin-bottom: 20px;
   }
-  // .proj-p {
-  //   font-size: 1.8rem;
-  //   line-height: 1.5;
-  //   // color: red;
-  // }
+
+  p {
+    word-wrap: break-word;
+    font-weight: 200;
+  }
 }
 
 @media screen and (max-width: 960px) {
-  .card-container {
-     display: flex;
-     flex-direction:row;
-     //MUST USE THIS FOR RESET PADDING FOR MOBILE SCREENS!!!!
-     padding: 0 0px;
+  .projectCard__container {
+    margin-top: 0;
+    height: 45vh;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left,
+  .rigth {
+    justify-content: center;
+  }
+
+  .projectCard__content {
+    width: 100%;
+
+    .proj-header {
+      font-size: var(--font-mobile-title2);
+    }
+
+    p {
+      font-size: var(--font-mobile-body);
+    }
   }
 }

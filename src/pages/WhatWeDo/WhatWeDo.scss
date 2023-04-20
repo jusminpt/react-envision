@@ -1,21 +1,24 @@
-.card,
-.projects
- {
-    margin: 50px 0;
-
-  
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
-.wwd-title {
-  color: var(--color-black);
-  font-size: var(--font-title);
-}
-
-//top line
-.line {
-    height: 2px;
-    background: black;
-    margin: 10px 0;
+.projects {
+  &__header:not(:first-child) {
+    margin-top: 100px;
   }
+  hr {
+    height: 3px;
+    background: var(--color-drak-blue);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .projects {
+    &__header {
+      margin: 0 50px;
+      color: var(--color-drak-blue);
+    }
+    &__header:not(:first-child) {
+      margin-top: 50px;
+    }
+    hr {
+      margin: 0 50px 20px 50px;
+    }
+  }
+}

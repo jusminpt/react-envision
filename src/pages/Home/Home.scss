@@ -1,7 +1,6 @@
 .home-page {
   h2 {
     margin: 0 auto 40px auto;
-    color: var(--color-drak-blue);
   }
   p {
     line-height: 1.5;
@@ -142,7 +141,7 @@
       }
 
       button {
-        width: 30%;
+        width: fit-content;
         height: 40px;
         align-self: flex-end;
       }
