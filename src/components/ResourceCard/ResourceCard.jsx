@@ -2,9 +2,8 @@ import React from "react";
 import Button from "../Button/Button";
 import "./ResourceCard.scss";
 
-function ResourceCard({ resourcesData: { title, description, urlBtn }, img }) {
+function ResourceCard({ resourcesData: { title, description, urlBtn, img } }) {
   return (
-    // TODO: Style, rename, add info
     <div
       className="resourceCard"
       style={{
