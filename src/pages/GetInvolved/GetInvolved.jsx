@@ -36,7 +36,7 @@ function GetInvolved() {
       </div>
 
       <div className={!isMobile ? "page-section" : null}>
-        <div className="top-grid">
+        <>
           <GetInvolvedCard
             textInput=" Empower communities with your donation - help us improve, educate and
           help those in need!"
@@ -54,7 +54,7 @@ function GetInvolved() {
             textBtn="Volunteer"
             urlBtn="https://docs.google.com/forms/d/e/1FAIpQLSdf3QGk-0hb9p4G_cx_YINEJe9fevKcs2D_-eMJyVG5J2K9Cw/viewform?usp=sf_link"
           />
-        </div>
+        </>
 
         {!isMobile ? (
           <>
