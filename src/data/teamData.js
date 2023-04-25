@@ -26,18 +26,6 @@ const teamData = [
   },
   {
     id: 3,
-    name: "Deconktee Jallah",
-    position: "Deputy Country Director - Liberia",
-    description:
-      "Deconktee Stryker-Jallah, a resident of Liberia, holds a BBA in Administration from the United Methodist University and a certificate in Project Planning & Proposal writing from the Liberia Institute of Public Administration, is the Deputy Country Director.",
-    img: "img/image3.png",
-    twiterLink: "",
-    instragramLink: "",
-    facebookLink: "",
-    linkedinLink: "",
-  },
-  {
-    id: 4,
     name: "Harrison Fayia",
     position: "Wash Project Manager",
     description: "",
@@ -48,7 +36,7 @@ const teamData = [
     linkedinLink: "",
   },
   {
-    id: 5,
+    id: 4,
     name: "Larry M. Tuah",
     position: "M&E Manager",
     description: "",
@@ -58,17 +46,6 @@ const teamData = [
     facebookLink: "",
     linkedinLink: "",
   },
-  // {
-  //   id: 6,
-  //   name: "Larry M. Tuah",
-  //   position: "M&E Manager",
-  //   description: "",
-  //   img: "img/image5.png",
-  //   twiterLink: "",
-  //   instragramLink: "",
-  //   facebookLink: "",
-  //   linkedinLink: "",
-  // },
 ];
 
 export default teamData;
