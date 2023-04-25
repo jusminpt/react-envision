@@ -6,7 +6,7 @@ function ReportCard({ textInput, textBtn, urlBtn }) {
   return (
     <div className="reportCard">
       <h3>{textInput}</h3>
-      <div className="reportCard-left">
+      <div className="reportCard__left">
         <Button textInput={textBtn} styleBtn="secondary" urlBtn={urlBtn} />
       </div>
     </div>

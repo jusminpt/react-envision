@@ -22,7 +22,7 @@ function Resources() {
     <div>
       <PageHero headingText="Resources" img={bannerResources} />
       <div className={!isMobile ? "page-section" : null}>
-        <div className="resourcesCard-section">
+        <div className="resourcesCard__section">
           {resourcesData.map((resourceData) => (
             <ResourceCard key={resourceData.id} resourcesData={resourceData} />
           ))}

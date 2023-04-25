@@ -19,7 +19,6 @@ function HIVCovid19() {
           difficult times.
         </p>
         <div className="card-section">
-          {/* TODO: Wait for CDC link */}
           <ReportCard
             textInput="Visit the CDC for more information"
             textBtn="Visit Page"

@@ -10,7 +10,7 @@ function Home() {
     <div className="home-page">
       <div className="home__video">
         <video autoPlay muted loop>
-          <source src={video} type="video/mp4" />
+          <source src={video} type="video/mp4" autoPlay={true} loop />
         </video>
         <div className="home__video-content">
           <div className="home__video-content-text">
@@ -67,15 +67,15 @@ function Home() {
           around Monrovia as part of its mission to strengthen access to primary
           healthcare in Liberia.
         </p>
-        <div className="founder-content">
-          <div className="founder-content-header">
+        <div className="founder__content">
+          <div className="founder__content-header">
             <h2>Meet Our Founder</h2>
           </div>
-          <div className="founder-content-detail">
-            <div className="founder-content-detail-left">
-              <img src={founder} alt="founder" />
+          <div className="founder__content-detail">
+            <div className="founder__content-detail-left">
+              <img src={founder} alt="img-founder" />
             </div>
-            <div className="founder-content-detail-right">
+            <div className="founder__content-detail-right">
               <span>Founder and CEO</span>
               <p>
                 Liberian refugee Elisha founded Envision Health Access

@@ -1,4 +1,4 @@
-.teamcard-container {
+.teamcard__container {
   height: 65vh;
   width: 23vw;
   padding: 20px;
@@ -62,7 +62,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .teamcard-container {
+  .teamcard__container {
     margin: 10px 0;
     height: 50vh;
     width: 100%;

@@ -119,11 +119,14 @@
 
   .app__footer-hero {
     flex-direction: column;
-    font-size: var(--font-default-size);
     width: 90%;
     height: 102px;
     margin: -100px auto 40px auto;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: var(--font-mobile-title3);
+    }
   }
 
   .app__footer-links {

@@ -11,7 +11,7 @@ function Footer() {
       <div className="app__footer">
         <div className="app__footer-subtract"></div>
         <div className="app__footer-hero">
-          <h4>Help Us In The Fight Against AIDS</h4>
+          <h3>Help Us In The Fight Against AIDS</h3>
           <Button
             textInput="Donate"
             styleBtn="secondary"
@@ -21,7 +21,7 @@ function Footer() {
         <div className="app__footer-links">
           <div className="app__footer-links-left">
             <div>
-              <h3>Navigation</h3>
+              <h4>Navigation</h4>
               <ul>
                 {linksData.map((item, index) => (
                   <li key={`link-${index}`}>
@@ -31,7 +31,7 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h3>What We Do</h3>
+              <h4>What We Do</h4>
               <ul>
                 <li>
                   <Link to="/whatwedo">Our Work</Link>
@@ -47,7 +47,7 @@ function Footer() {
           </div>
           <div className="app__footer-links-right">
             <div>
-              <h3>About Us</h3>
+              <h4>About Us</h4>
               <ul>
                 <li>
                   <Link to="/aboutus">Meet the Team</Link>
@@ -64,7 +64,7 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h3>Talk to Us</h3>
+              <h4>Talk to Us</h4>
               <ul>
                 <li>
                   511 N Reilly Rd Ste A108

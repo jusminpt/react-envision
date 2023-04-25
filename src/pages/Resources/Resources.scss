@@ -1,9 +1,9 @@
-.resourcesCard-section {
+.resourcesCard__section {
   display: flex;
 }
 
 @media screen and (max-width: 960px) {
-  .resourcesCard-section {
+  .resourcesCard__section {
     flex-direction: column;
   }
 }

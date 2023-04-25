@@ -11,7 +11,7 @@ import {
 function TeamCard({ teamData: { img, name, position, description } }) {
   return (
     <div
-      className="teamcard-container"
+      className="teamcard__container"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${img})`,
       }}

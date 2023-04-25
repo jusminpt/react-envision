@@ -9,12 +9,6 @@ function MenuItems({ items }) {
   const [dropdown, setDropdown] = useState(false);
   const [click, setClick] = useState(false);
 
-  // const handleClick = () => {
-  //   setClick(!click);
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(!dropdown);
-  //   }
-  // };
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
@@ -35,7 +29,6 @@ function MenuItems({ items }) {
       {items.sublink ? (
         <>
           <Link
-            // TODO : What is the flow of mobile version?
             to={items.url}
             onClick={closeMobileMenu}
             className={

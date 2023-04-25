@@ -21,7 +21,6 @@ function App() {
         <Navbar />
         <main>
           <Routes>
-            {/* TODO: Add more paths when finalize */}
             <Route exact path="/" element={<Home />} />
             <Route path="whatwedo" element={<WhatWeDo />} />
             <Route path="resources" element={<Resources />} />
@@ -31,11 +30,6 @@ function App() {
               element={<FinancialReport />}
             />
             <Route path="getinvolved" element={<GetInvolved />} />
-            {/* <Route path="getinvolved/volunteer" element={<Volunteer />} /> */}
-            {/* <Route
-              path="getinvolved/volunteer/success"
-              element={<VolunteerSuccess />}
-            /> */}
             <Route path="aboutus" element={<AboutUs />} />
             <Route path="*" element={"Page not founded 404"} />
           </Routes>
