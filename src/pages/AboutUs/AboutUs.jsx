@@ -26,8 +26,7 @@ function AboutUs() {
                 Our mission is to improve local healthcare for those living in
                 poverty globally. We will help advance accessible healthcare for
                 those in underserved areas by providing innovative, sustainable
-                and scalable solutions for chronic healthcare needs. Vision: To
-                be promoters of good health to the poor of the world.
+                and scalable solutions for chronic healthcare needs.
               </p>
             </div>
             <div className="mission-div-50-content">
