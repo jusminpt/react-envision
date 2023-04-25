@@ -1,17 +1,27 @@
 import React from "react";
-import Button from "../Button/Button";
 import "./GetInvolvedCard.scss";
-// import img from "../../assets/Trial.jpg";
+import Button from "../Button/Button";
+// import housesImg from "../../assets/img/image 8.png";
 
-function GetInvolvedCard({ textInput, textBtn, urlBtn }) {
+function TopGrid({ textInput, img, bgImg, position, textBtn, urlBtn }) {
   return (
-    <div className="getInvolvedCard">
-      <h3 className="gi-card-title">{textInput}</h3>
-      <div className="getInvolvedCard-left">
-        <Button textInput={textBtn} styleBtn="secondary" urlBtn={urlBtn} />
+    <>
+      <div className="getInvolvedCard__container">
+        <div
+          className="getInvolvedCard__detail"
+          style={{
+            backgroundImage: `url(${bgImg})`,
+          }}
+        ></div>
+        <div className={`getInvolvedCard__detail-decs ${position}`}>
+          <div className="getInvolvedCard__detail-decs-title">{textInput}</div>
+          <Button textInput={textBtn} styleBtn="secondary" urlBtn={urlBtn} />
+        </div>
+        <div className={`getInvolvedCard__floatImg ${position}`}>
+          <img src={img} alt={img} />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
-
-export default GetInvolvedCard;
+export default TopGrid;

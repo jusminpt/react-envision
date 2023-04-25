@@ -1,0 +1,33 @@
+.grid__container {
+  margin: 50px 0;
+  display: grid;
+  grid-template-areas:
+    "grid1 grid1 grid3"
+    "grid2 grid2 grid3"
+    "grid2 grid2 grid3"
+    "grid4 grid4 grid4"
+    "grid4 grid4 grid4";
+  gap: 20px;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.grid__item {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.item1 {
+  grid-area: grid1;
+}
+.item2 {
+  grid-area: grid2;
+}
+.item3 {
+  grid-area: grid3;
+}
+.item4 {
+  grid-area: grid4;
+}

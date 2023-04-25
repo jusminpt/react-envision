@@ -1,23 +1,19 @@
 .involved-p,
 .top-grid,
 .middle-card,
-.end-card
- {
-    margin: 50px 0;
+.end-card {
+  margin: 50px 0;
 }
 
+.volunteerPic__container {
+  text-align: center;
+}
 
-
-// .top-grid {
-  
-//   border: solid yellow 5px;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-    
-// }
- 
-// .involved-title {
-//   color: var(--color-black);
-//   font-size: var(--font-title);
-// }
+@media screen and (max-width: 960px) {
+  .involved-p,
+  .top-grid,
+  .middle-card,
+  .end-card {
+    margin: 25px 0;
+  }
+}
