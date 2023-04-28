@@ -31,11 +31,7 @@ function AboutUs() {
             </div>
             <div className="mission-div-50-content">
               <h3>Vision</h3>
-              <p>
-                A world without fear of HIV/AIDS, reduced social stigma and
-                improved the quality of life for people living in the world’s
-                most impoverished communities.
-              </p>
+              <p>To be promoters of good health to the poor of the world.</p>
             </div>
           </div>
           <div className="mission-div-100">
