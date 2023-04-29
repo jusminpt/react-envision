@@ -52,7 +52,7 @@ function GetInvolved() {
             bgImg="img/getInvoloved2-2.png"
             position="right"
             textBtn="Volunteer"
-            urlBtn="https://docs.google.com/forms/d/e/1FAIpQLSdf3QGk-0hb9p4G_cx_YINEJe9fevKcs2D_-eMJyVG5J2K9Cw/viewform?usp=sf_link"
+            urlBtn="https://docs.google.com/forms/u/2/d/1Ft8Pz0H_1SMaF9p4vBLKH0nqm22aXKMZC6E2nK2Q60s/edit?usp=forms_home&ths=true"
           />
         </>
 
@@ -68,7 +68,7 @@ function GetInvolved() {
                 textInputTwo="More Impact"
                 pInput="Together, we can create a healthier world with Envision Health Access Initiative."
                 textBtn="Join Us"
-                urlBtn="https://docs.google.com/forms/d/e/1FAIpQLSdf3QGk-0hb9p4G_cx_YINEJe9fevKcs2D_-eMJyVG5J2K9Cw/viewform?usp=sf_link"
+                urlBtn="https://docs.google.com/forms/u/2/d/1Ft8Pz0H_1SMaF9p4vBLKH0nqm22aXKMZC6E2nK2Q60s/edit?usp=forms_home&ths=true"
               />
             </div>
           </>
