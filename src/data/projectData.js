@@ -30,6 +30,22 @@ const projectData = [
     pText:
       "EHAI collaborated with Tanzania Youth Espouse for Gender and Development (TYEGD). A youth non-governmental and non-profit organization evolved from a collective critical reflection on gender relations, human rights, and the role of young people in bringing about social change in the community via their collective efforts.",
   },
+  {
+    id: 5,
+    imageChoice: "img/malawi1.png",
+    textPosition: "left",
+    headerText: "Community Engagement for Health Equity",
+    pText:
+      "We work with Community Engagement for Health Equity (CEHE) as our implementing partner on Maternal and Infant Health, Water Hygiene and Sanitation (WASH), HIV/AIDS, and Economic empowerment programs",
+  },
+  {
+    id: 6,
+    imageChoice: "img/usa1.png",
+    textPosition: "left",
+    headerText: "United States Project",
+    pText:
+      "Our U.S.-based program focuses on Rural Health Issues, including Maternal and Child Health, Teenage Pregnancy Prevention through health education and promotion, and HIV/AIDS.",
+  },
 ];
 
 export default projectData;

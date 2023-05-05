@@ -69,6 +69,36 @@ function WhatWeDo() {
                 pText={countryItem.pText}
               />
             ))}
+
+          {/* Malawi  Projects */}
+          <h2 className="projects__header">Malawi</h2>
+          <hr />
+          {projectData
+            .filter((item) => item.imageChoice.includes("malawi"))
+            .map((countryItem) => (
+              <ProjectCard
+                key={countryItem.id}
+                imageChoice={countryItem.imageChoice}
+                textPosition={countryItem.textPosition}
+                headerText={countryItem.headerText}
+                pText={countryItem.pText}
+              />
+            ))}
+
+          {/* United States Projects */}
+          <h2 className="projects__header">United States</h2>
+          <hr />
+          {projectData
+            .filter((item) => item.imageChoice.includes("usa"))
+            .map((countryItem) => (
+              <ProjectCard
+                key={countryItem.id}
+                imageChoice={countryItem.imageChoice}
+                textPosition={countryItem.textPosition}
+                headerText={countryItem.headerText}
+                pText={countryItem.pText}
+              />
+            ))}
         </div>
       </div>
     </div>

@@ -49,7 +49,7 @@
 }
 
 .home__explore {
-  height: 40vh;
+  height: 55vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 2, 2, 0.5)),
     url("../../assets/img/people\ with\ sticks.png");
   background-repeat: no-repeat;
@@ -183,6 +183,7 @@
   }
 
   .home__explore {
+    height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(2, 2, 2, 0.3)),
       url("../../assets/img/people\ with\ sticks.png");
     align-items: center;

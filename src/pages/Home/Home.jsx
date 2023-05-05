@@ -54,6 +54,12 @@ function Home() {
             <li>
               <Link to="/whatwedo">Liberia</Link>
             </li>
+            <li>
+              <Link to="/whatwedo">Malawi</Link>
+            </li>
+            <li>
+              <Link to="/whatwedo">United States</Link>
+            </li>
           </ul>
         </div>
       </div>
