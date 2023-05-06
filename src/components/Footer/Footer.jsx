@@ -71,7 +71,6 @@ function Footer() {
                   <br />
                   Fayetteville, NC 28303-2440
                 </li>
-                <li>Tel 646-589-2589</li>
                 <li>
                   <a href="mailto:info@envisionhealthaccess.org">
                     info@envisionhealthaccess.org
