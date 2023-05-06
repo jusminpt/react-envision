@@ -3,7 +3,7 @@ import bannerGetinvolved from "../../assets/img/banner-getinvolved.png";
 import { PageHero } from "../../components";
 import GetInvolvedCard from "../../components/GetInvolvedCard/GetInvolvedCard";
 import GetInvolvedEndCard from "../../components/GetInvolvedFlexCard/GetInvolvedEndCard";
-import GridCard from "../../components/GridCard/GridCard";
+// import GridCard from "../../components/GridCard/GridCard";
 import "./GetInvolved.scss";
 
 function GetInvolved() {
@@ -58,10 +58,11 @@ function GetInvolved() {
 
         {!isMobile ? (
           <>
-            <div className="volunteerPic__container">
+            {/* Volunteer picture section */}
+            {/* <div className="volunteerPic__container">
               <h2>Our Volunteers</h2>
               <GridCard />
-            </div>
+            </div> */}
             <div className="end-card">
               <GetInvolvedEndCard
                 textInputOne="More People"
